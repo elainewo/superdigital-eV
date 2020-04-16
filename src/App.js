@@ -1,4 +1,3 @@
-
 import Wirkung from './Wirkungs';
 import Spenden from './Spenden';
 import React from "react";

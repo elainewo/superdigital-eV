@@ -1,24 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import {
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group';
+import DigitalZukunft from './Components/DigitalZukunft';
+import './Components/app.css';
+import UeberUns from './Components/UeberUns';
+import UeberUnsItem from './Components/UeberUnsItem';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Route render={({ location }) => (
+        <TransitionGroup>
+          <CSSTransition
+            key={location.key}
+            transitionName="fade"
+            transitionEnterTimeout={500}
+            transitionLeaveTimeout={300}
+          >
+            <Switch location={location}>
+              <Route path='/' exact>
+                <DigitalZukunft />
+                {/* <UeberUns /> */}
+              </Route>
+              <Route path='/ueberunsitem' exact>
+                {/* <UeberUnsItem /> */}
+              </Route>
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
+
+      )} />
     </div>
   );
 }

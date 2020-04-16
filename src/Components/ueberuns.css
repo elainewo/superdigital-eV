@@ -1,0 +1,74 @@
+.ueberUns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 9%;
+}
+
+.ueberuns-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.ueberuns-container article {
+    width: 40%;
+}
+
+.ueberuns-container article div:nth-of-type(2) {
+    line-height: 1.8rem;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.ueberuns-container article div:nth-of-type(2) h4 {
+    font-size: 1.7rem;
+    margin-bottom: 2%;
+}
+
+.ueberuns-container article div:nth-of-type(2) p {
+    font-size: .9rem;
+}
+
+.img-bg img {
+    width: 48%;
+    padding: 5%;
+}
+
+.img-bg {
+    background: url("/images/Group89.svg") left/contain no-repeat;
+    background-size: 59%;
+}
+
+.brush-img {
+    margin-bottom: -2.5%;
+    margin-left: -26%;
+    width: 35%;
+}
+
+.ueberUns h2 {
+    font-size: 3rem;
+    margin-bottom: 10%;
+}
+
+.ueberUns h3 {
+    font-size: 2.5rem;
+    display: inline-block;
+    isolation: isolate;
+    margin-bottom: 9%;
+}
+
+.ueberuns-text {
+    align-self: flex-end;
+    width: 42%;
+    margin-left: -9%;
+}
+
+.ueberuns-text p {
+    line-height: 1.8rem;
+}
+
+#arrow:hover {
+    fill: gold;
+}

@@ -1,0 +1,17 @@
+.karte {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.karte img {
+  height: 100vh;
+}
+.karteItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 2rem;
+}
+.karteItem p {
+  margin: 1rem 0;
+}

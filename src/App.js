@@ -1,5 +1,5 @@
-import Wirkung from './Wirkungs';
-import Spenden from './Spenden';
+import Wirkung from "./Wirkungs";
+import Spenden from "./Spenden";
 import React from "react";
 import Header from "./Components/Header";
 import Beiträge from "./Components/Beiträge";
@@ -14,9 +14,6 @@ import UeberUnsItem from "./Components/UeberUnsItem";
 function App() {
   return (
     <div className="App">
-      <Wirkung />
-      <Spenden />
-
       <Route
         render={({ location }) => (
           <TransitionGroup>
@@ -28,16 +25,18 @@ function App() {
             >
               <Switch location={location}>
                 <Route path="/" exact>
-                  <Header />
-                  <Beiträge />
-                  <DigitalZukunft />
+                  {/* <Header /> */}
+                  {/* <Beiträge /> */}
+                  {/* <DigitalZukunft />s */}
                   <UeberUns />
+                  {/* <Wirkung /> */}
+                  {/* <Spenden /> */}
                 </Route>
-                <Route
+                {/* <Route
                   path="/:id"
                   exact
                   render={(props) => <DetailBeitrag {...props} />}
-                ></Route>
+                ></Route> */}
                 <Route path="/ueberunsitem" exact>
                   <UeberUnsItem />
                 </Route>

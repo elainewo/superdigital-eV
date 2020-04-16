@@ -27,11 +27,11 @@ function App() {
           >
             <Switch location={location}>
               <Route path='/' exact>
-                <DigitalZukunft />
-                {/* <UeberUns /> */}
+                {/* <DigitalZukunft /> */}
+                <UeberUns />
               </Route>
               <Route path='/ueberunsitem' exact>
-                {/* <UeberUnsItem /> */}
+                <UeberUnsItem />
               </Route>
             </Switch>
           </CSSTransition>

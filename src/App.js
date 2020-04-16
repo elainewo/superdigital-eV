@@ -1,3 +1,5 @@
+import Wirkung from "./Wirkungs";
+import Spenden from "./Spenden";
 import React from "react";
 import Header from "./Components/Header";
 import Beiträge from "./Components/Beiträge";
@@ -27,6 +29,8 @@ function App() {
                   <Beiträge />
                   <DigitalZukunft />
                   <UeberUns />
+                  <Wirkung />
+                  <Spenden />
                 </Route>
                 <Route
                   path="/:id"
@@ -44,5 +48,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

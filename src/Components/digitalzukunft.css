@@ -182,15 +182,8 @@
   }
 }
 
-/* @media only screen and (min-width: 600px) {
-    .digitalZukunft {
-        background: green;
-    }
-} */
-
 @media only screen and (min-width: 768px) {
   .digitalZukunft {
-    background: red;
     padding: 0;
     overflow: hidden;
   }
@@ -205,7 +198,7 @@
     width: 220%;
   }
   .brush img:nth-last-of-type(2) {
-    margin-top: 35%;
+    margin-top: 30%;
   }
   .gruppenbild {
     height: 38vh;
@@ -224,10 +217,44 @@
     font-size: 1.4rem;
     line-height: 1.8rem;
   }
+  .l-section-top {
+    margin-top: 15%;
+  }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .digitalZukunft {
-    background: orange;
+    padding: 3%;
+  }
+  .digitalZukunft article {
+    width: 35%;
+    margin-right: auto;
+  }
+  .digitalZukunft div {
+    width: 50%;
+    margin-left: 5%;
+  }
+  .trainerbild {
+    width: 72%;
+  }
+  .brush img {
+    width: 28rem;
+  }
+  .brush {
+    margin-top: -34%;
+  }
+  .gruppenbild {
+    margin-top: -54%;
+    width: 49%;
+    height: 62vh;
+    object-fit: cover;
+    isolation: isolate;
+  }
+  .digitalZukunft article h2 {
+    line-height: 2.7rem;
+    font-size: 2rem;
+  }
+  .l-section-top {
+    margin-top: 4%;
   }
 }

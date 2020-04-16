@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap');
+
+
+.textArticle {
+  margin-top: 150px;
+}
+.textArticle h1 {
+  color: #FFDA00;
+   font-size: 3.5rem;
+   font-weight: 900;
+   font-family: 'Ubuntu Mono', monospace;
+   margin-left:7rem;
+   margin-bottom: 1rem;
+}
+.textArticle p {
+  width: 400px;
+  margin-left:7rem;
+  line-height: 25px;
+
+}
+ .WirkungSection {
+  display: flex;
+} 
+ .WirkungSection .imgArticle {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 60%;
+  margin-top: 200px;
+  margin-left: 7rem;
+  overflow: hidden;
+} 
+.WirkungSection .imgArticle img {
+  margin: 0 50px;
+}

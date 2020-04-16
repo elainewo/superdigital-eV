@@ -35,6 +35,17 @@ class UeberUns extends Component {
                         <p>> Wir haben Mut zum Neudenken und trauen uns alte Muster zu verlassen</p>
                     </div>
                 </div>
+                <div>
+                    <p>Partner und Netzwerk</p>
+                    <div>
+                        <a href="#"><img src="/images/image1.png" alt="" /></a>
+                        <a href="#"><img src="" alt="" /></a>
+                        <a href="#"><img src="" alt="" /></a>
+                        <a href="#"><img src="" alt="" /></a>
+                        <a href="#"><img src="" alt="" /></a>
+                        <a href="#"><img src="" alt="" /></a>
+                    </div>
+                </div>
             </section>
         );
     }

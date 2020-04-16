@@ -1,0 +1,55 @@
+.cool-button {
+  margin: 10rem 0rem 5rem 2rem;
+  font-size: 20px;
+
+  background-color: white;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: 15px 20px;
+  font-family: "Ubuntu", sans-serif;
+  box-shadow: 3px 8px 0px 0px #ffda00;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.cool-button:hover {
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px 0px MediumVioletRed;
+}
+
+.cool-button:active {
+  outline: none;
+  color: white;
+  box-shadow: -3px 4px 0px 0px white;
+
+  background-color: MediumVioletRed;
+}
+.buttons {
+  margin-bottom: -6.5rem;
+  margin-left: 3rem;
+}
+
+.cool-button:focus {
+  outline: none;
+}
+.item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  background: #004a6f;
+  padding: 10rem 3rem;
+  margin-bottom: 5rem;
+}
+.items {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+.items h2 {
+  height: 5rem;
+}
+.items .beschreibung {
+  height: 5rem;
+}

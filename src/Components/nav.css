@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  height: 5rem;
+  align-items: center;
+  padding: 0 4.3rem;
+}
+header img {
+  width: 15rem;
+}
+
+.kontakt {
+  border: 1px solid #0079fb;
+  border-radius: 1rem;
+  padding: 0.2rem 0.6rem;
+  color: #0079fb;
+  margin-top: -0.2rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li {
+  margin-left: 2rem;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}

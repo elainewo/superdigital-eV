@@ -6,7 +6,9 @@ header {
   height: 5rem;
   align-items: center;
   padding: 0 4.3rem;
-  background: #f5f6f742;
+}
+header img {
+  width: 15rem;
 }
 
 .kontakt {
@@ -24,7 +26,8 @@ header ul {
 
 header ul li {
   margin-left: 2rem;
-  color: rgb(51, 44, 44);
+  color: #fff;
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
 }

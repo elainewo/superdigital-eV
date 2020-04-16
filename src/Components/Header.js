@@ -10,9 +10,12 @@ const Header = () => {
         <Nav />
         <article className="head-titel">
           <HeaderItem
-            headline="Wieviel Mensch"
+            headline1="Wieviel "
+            headline2="Mensch"
+            headline3="Digital"
             thin="braucht "
-            second="Digital?"
+            second1="Digital?"
+            second2="Mensch?"
           />
         </article>
       </div>

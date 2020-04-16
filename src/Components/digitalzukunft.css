@@ -1,0 +1,232 @@
+.digitalZukunft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.digitalZukunft article {
+    width: 35%;
+}
+
+.digitalZukunft div {
+    width: 50%;
+    display: inline-block;
+}
+
+.trainerbild {
+    width: 72%;
+    height: auto;
+}
+
+.brush img {
+    width: 28rem;
+}
+
+.brush img:nth-last-of-type(2) {
+    margin-left: 5%;
+}
+
+.brush img:nth-last-of-type(1) {
+    margin-left: 15%;
+}
+
+.brush {
+    margin-top: -34%;
+    margin-left: 11%;
+    width: 100%;
+}
+
+.brush2 {
+    margin-top: 15%;
+}
+
+.gruppenbild {
+    margin-top: -54%;
+    margin-left: 30%;
+    width: 49%;
+    height: 62vh;
+    object-fit: cover;
+    isolation: isolate;
+}
+
+.digitalZukunft article {
+    align-self: flex-start;
+    padding-top: 3%;
+    margin-left: 2%;
+}
+
+.digitalZukunft article span {
+    font-weight: lighter;
+}
+
+.digitalZukunft article h2 {
+    line-height: 2.7rem;
+    font-size: 2rem;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 10%;
+}
+
+.digitalZukunft article p {
+    width: 85%;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    /* font-family: 'Ubuntu Mono', monospace; */
+}
+
+/********** Animation **********/
+
+.c-contents p::before, .c-contents p::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background-color: #333;
+    vertical-align: middle;
+}
+
+.l-section-top {
+    width: 100%;
+    height: 100%;
+    margin-top: 8%;
+    position: relative;
+}
+
+.c-title {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.c-title:hover {
+    text-decoration: underline;
+}
+
+.c-title p {
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.c-scrolldown {
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 2%;
+    overflow: hidden;
+}
+
+.c-scrolldown .c-line {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(to bottom, #000 50%, rgba(255, 255, 255, 0) 50%);
+    background-position: 0 -60px;
+    background-size: 100% 200%;
+    animation: scrolldown 2.2s cubic-bezier(0.76, 0, 0.3, 1) forwards infinite;
+}
+
+@keyframes scrolldown {
+    0% {
+        background-position: 0 -100px;
+    }
+    75% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 100px;
+    }
+}
+
+/********** Media Queries **********/
+
+@media only screen and (max-width: 600px) {
+    .digitalZukunft {
+        flex-direction: column;
+        padding: 0;
+        overflow: hidden;
+    }
+    .brush {
+        margin-top: -20%;
+    }
+    .brush img {
+        display: block;
+        width: 100%;
+    }
+    .brush img:nth-last-of-type(2) {
+        margin-top: 20%;
+    }
+    .trainerbild {
+        width: 85%;
+    }
+    .gruppenbild {
+        margin-top: -100%;
+        height: 44vh;
+        width: 76%;
+        padding-bottom: 15%;
+    }
+    .digitalZukunft div {
+        width: 100%;
+    }
+    .digitalZukunft article {
+        width: 90%;
+        padding: 20% 10% 0 10%;
+        margin: 0 auto;
+    }
+    .l-section-top {
+        margin-top: 47%;
+    }
+}
+
+/* @media only screen and (min-width: 600px) {
+    .digitalZukunft {
+        background: green;
+    }
+} */
+
+@media only screen and (min-width: 768px) {
+    .digitalZukunft {
+        background: red;
+        padding: 0;
+        overflow: hidden;
+    }
+    .trainerbild {
+        width: 100%;
+    }
+    .brush {
+        margin-top: -20%;
+    }
+    .brush img {
+        display: block;
+        width: 220%;
+    }
+    .brush img:nth-last-of-type(2) {
+        margin-top: 35%;
+    }
+    .gruppenbild {
+        height: 38vh;
+        width: 79%;
+        margin-top: -100%;
+    }
+    .digitalZukunft div {
+        width: 44%;
+        margin-right: auto;
+    }
+    .digitalZukunft article {
+        width: 45%;
+        margin-left: auto;
+    }
+    .digitalZukunft article h2 {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .digitalZukunft {
+        background: orange;
+    }
+}

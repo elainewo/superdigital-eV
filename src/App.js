@@ -1,5 +1,5 @@
 import React from 'react';
-import Wirkung from './Wirkungscopy';
+import Wirkung from './Wirkungs';
 import Spenden from './Spenden';
 
 function App() {

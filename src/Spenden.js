@@ -15,8 +15,7 @@ function Spenden() {
       <div> 
         <button className="SpendenBtn" >Spenden</button>
         <button className="SpendenBtn" >Spenden</button>
-        {/* <input className="SpendenBtn" type="button" value="Spenden" onclick="spendenBtn"/>
-        <input className="SpendenBtn" type="button" value="Spenden" onclick="spendenBtn"/> */}
+     
   
       </div>
       </div>

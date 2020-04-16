@@ -1,0 +1,54 @@
+.header {
+  margin-top: 2rem;
+  background: url("/bild2.png");
+  width: 95%;
+  margin: 3rem auto 0;
+}
+.head-titel {
+  margin-left: 5rem;
+}
+
+.head {
+  display: flex;
+  height: 35rem;
+  align-items: center;
+}
+.header h2 {
+  font-size: 5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #0079fb;
+  margin: 0;
+}
+.header p {
+  font-size: 4rem;
+  color: #0079fb;
+  font-weight: 100;
+  font-family: "Ubuntu", sans-serif;
+  display: inline;
+}
+.header h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #0079fb;
+  font-size: 5rem;
+  font-family: "Ubuntu", sans-serif;
+  display: inline;
+}
+.strich {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  height: 1px;
+  width: 0px;
+  border-left: 2px solid #000;
+
+  -webkit-animation: increase 3s;
+  -moz-animation: increase 3s;
+  -o-animation: increase 3s;
+  animation: increase 3s infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes increase {
+  100% {
+    height: 200px;
+  }
+}

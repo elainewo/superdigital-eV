@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.karte img {
+.karte .bildKarte {
   height: 100vh;
 }
 .karteItem {
@@ -12,6 +12,13 @@
   width: 80%;
   margin: 2rem;
 }
+.karteItem .strich1 {
+  margin: 2rem 0;
+}
+.karteItem h2 {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
 .karteItem p {
-  margin: 1rem 0;
+  margin: 5rem 0;
 }

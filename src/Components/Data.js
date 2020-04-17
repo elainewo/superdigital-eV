@@ -5,7 +5,7 @@ export const contact = [
     datum: "15.April 2020",
     beschreibung:
       "Bleib nicht stumm! Lerne deine ersten Sätze in HTML und CSS(...)",
-    image: "./people.png",
+    image: "./Bild1-neu.png",
     beschreibungLang:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
   },
@@ -15,7 +15,7 @@ export const contact = [
     datum: "21.April 2020",
     beschreibung:
       "Bleib nicht stumm! Lerne deine ersten Sätze in HTML und CSS(...)",
-    image: "./Bild5.png",
+    image: "./Bild2-neu.png",
     beschreibungLang:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
   },
@@ -25,7 +25,7 @@ export const contact = [
     datum: "26.April 2020",
     beschreibung:
       "Wir sind dabei - du auch? Fe:male Hackaton from Fe:male Innovation Hub@Sipgate(...)",
-    image: "./Bild6.png",
+    image: "./Bild3-neu.png",
     beschreibungLang:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
   },
@@ -35,7 +35,7 @@ export const contact = [
     datum: "28.April 2020",
     beschreibung:
       "Welche Bildung brauchen wir und in was wollen wir uns bilden? Ein Kongress, gemeinsam mit(...)",
-    image: "./Bild4.png",
+    image: "./Bild4-neu.png",
     beschreibungLang:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
   },

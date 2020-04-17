@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import image from "../Rectangle 30.png";
 import image2 from "../Arrow 4.svg";
 

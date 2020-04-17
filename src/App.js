@@ -10,6 +10,7 @@ import DigitalZukunft from "./Components/DigitalZukunft";
 import "./Components/app.css";
 import UeberUns from "./Components/UeberUns";
 import UeberUnsItem from "./Components/UeberUnsItem";
+import Chancen from "./Components/Chancen";
 
 function App() {
   return (
@@ -26,10 +27,11 @@ function App() {
               <Switch location={location}>
                 <Route path="/" exact>
                   <Header />
-                  <Beiträge />
+                  <Chancen />
                   <DigitalZukunft />
-                  <UeberUns />
                   <Wirkung />
+                  <Beiträge />
+                  <UeberUns />
                   <Spenden />
                 </Route>
                 <Route

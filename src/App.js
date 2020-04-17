@@ -10,41 +10,41 @@ import DigitalZukunft from "./Components/DigitalZukunft";
 import "./Components/app.css";
 import UeberUns from "./Components/UeberUns";
 import UeberUnsItem from "./Components/UeberUnsItem";
+import { Container } from 'react-bootstrap'
+
+const routes = [
+  { path: '/', name: 'Home', Component: UeberUns },
+  { path: '/ueberunsitem', name: 'UeberUns', Component: UeberUnsItem }
+]
+
 
 function App() {
   return (
     <div className="App">
-      <Route
-        render={({ location }) => (
-          <TransitionGroup>
-            <CSSTransition
-              key={location.key}
-              transitionName="fade"
-              transitionEnterTimeout={500}
-              transitionLeaveTimeout={300}
-            >
-              <Switch location={location}>
-                <Route path="/" exact>
-                  {/* <Header /> */}
-                  {/* <Beiträge /> */}
-                  {/* <DigitalZukunft />s */}
-                  <UeberUns />
-                  {/* <Wirkung /> */}
-                  {/* <Spenden /> */}
-                </Route>
-                {/* <Route
-                  path="/:id"
-                  exact
-                  render={(props) => <DetailBeitrag {...props} />}
-                ></Route> */}
-                <Route path="/ueberunsitem" exact>
-                  <UeberUnsItem />
-                </Route>
-              </Switch>
-            </CSSTransition>
-          </TransitionGroup>
-        )}
-      />
+
+
+
+
+
+      <Container className="container">
+        {routes.map(({ path, Component }) => (
+          <Route key={path} exact path={path}>
+            {({ match }) => (
+              <CSSTransition
+                in={match != null}
+                timeout={2000}
+                classNames="page"
+                unmountOnExit
+              >
+                <div className="page">
+                  <Component />
+                </div>
+              </CSSTransition>
+            )}
+          </Route>
+        ))}
+      </Container>
+
     </div>
   );
 }

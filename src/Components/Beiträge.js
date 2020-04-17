@@ -41,13 +41,37 @@ class Beiträge extends Component {
     return (
       <div className="veranstaltung">
         <section className="buttons">
-          <button onClick={this.handleExpand} className="cool-button">
+          <button
+            style={
+              this.state.isExpanded
+                ? { boxShadow: `3px 8px 0px 0px #ffda00` }
+                : { boxShadow: `0px 0px 0px 0px` }
+            }
+            onClick={this.handleExpand}
+            className="cool-button"
+          >
             aktuelle Veranstaltungen
           </button>
-          <button onClick={this.handleExpand2} className="cool-button">
+          <button
+            style={
+              this.state.isSecondExpanded
+                ? { boxShadow: `3px 8px 0px 0px #ffda00` }
+                : { boxShadow: `0px 0px 0px 0px` }
+            }
+            onClick={this.handleExpand2}
+            className="cool-button"
+          >
             aktuelle Beiträge
           </button>
-          <button onClick={this.handleExpand3} className="cool-button">
+          <button
+            style={
+              this.state.isThirdExpanded
+                ? { boxShadow: `3px 8px 0px 0px #ffda00` }
+                : { boxShadow: `0px 0px 0px 0px` }
+            }
+            onClick={this.handleExpand3}
+            className="cool-button"
+          >
             Das Netz in Zahlen
           </button>
         </section>

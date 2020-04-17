@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import HeaderItem from "./HeaderItem";
 import "./header.css";
+import "./digitalzukunft.css";
 
 const Header = () => {
   return (
@@ -19,7 +20,9 @@ const Header = () => {
           />
         </article>
       </div>
-      <div className="strich"></div>
+      <div class="c-scrolldown">
+        <div class="c-line"></div>
+      </div>
     </div>
   );
 };

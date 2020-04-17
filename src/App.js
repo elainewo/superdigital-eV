@@ -8,6 +8,7 @@ import { Switch, Route, Link } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import DigitalZukunft from "./Components/DigitalZukunft";
 import "./Components/app.css";
+import Chancen from "./Components/Chancen";
 import UeberUns from "./Components/UeberUns";
 import UeberUnsItem from "./Components/UeberUnsItem";
 import { Container } from 'react-bootstrap'
@@ -17,16 +18,12 @@ const routes = [
   { path: '/ueberunsitem', name: 'UeberUns', Component: UeberUnsItem }
 ]
 
-
 function App() {
   return (
     <div className="App">
 
-
-
-
-
-      <Container className="container">
+      {/* ******* UeberUns mit Transition Group ****** */}
+      {/* <Container className="container">
         {routes.map(({ path, Component }) => (
           <Route key={path} exact path={path}>
             {({ match }) => (
@@ -43,8 +40,26 @@ function App() {
             )}
           </Route>
         ))}
-      </Container>
+      </Container> */}
 
+
+
+      <Switch>
+        <Route path='/' exact>
+          <Header />
+          <Chancen />
+          <DigitalZukunft />
+          <Wirkung />
+          <Beiträge />
+          <UeberUns />
+          <Spenden />
+        </Route>
+        <Route
+          path="/:id"
+          exact
+          render={(props) => <DetailBeitrag {...props} />}
+        ></Route>
+      </Switch>
     </div>
   );
 }

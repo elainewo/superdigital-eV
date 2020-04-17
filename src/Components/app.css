@@ -15,13 +15,13 @@ body {
 
 /**** Transition Groups CSS ****/
 
-.container {
+/* .container {
     position: relative;
 }
 
 .page {
-    position: absolute;
-}
+    position: relative;
+} */
 
 .page-enter {
     opacity: 0;

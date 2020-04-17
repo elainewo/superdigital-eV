@@ -19,31 +19,15 @@
   height: auto;
 }
 
-.brush img {
-  width: 28rem;
-}
-
-.brush img:nth-last-of-type(2) {
-  margin-left: 5%;
-}
-
-.brush img:nth-last-of-type(1) {
-  margin-left: 15%;
-}
-
-.brush {
+.brushes {
+  width: 70%;
   margin-top: -34%;
   margin-left: 11%;
-  width: 100%;
-}
-
-.brush2 {
-  margin-top: 15%;
 }
 
 .gruppenbild {
   margin-top: -54%;
-  margin-left: 30%;
+  margin-left: 28%;
   width: 49%;
   height: 62vh;
   object-fit: cover;
@@ -76,16 +60,6 @@
 
 /********** Animation **********/
 
-.c-contents p::before,
-.c-contents p::after {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 1px;
-  background-color: #333;
-  vertical-align: middle;
-}
-
 .l-section-top {
   width: 100%;
   height: 100%;
@@ -105,7 +79,7 @@
 
 .c-title p {
   text-align: center;
-  margin-bottom: 2%;
+  margin-top: 9%;
   font-weight: bold;
 }
 
@@ -113,10 +87,10 @@
   width: 2px;
   height: 200px;
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   left: 0;
   right: 0;
-  margin: 0 auto 2%;
+  margin: 0 auto 5%;
   overflow: hidden;
 }
 
@@ -150,23 +124,19 @@
     padding: 0;
     overflow: hidden;
   }
-  .brush {
-    margin-top: -20%;
-  }
-  .brush img {
-    display: block;
-    width: 100%;
-  }
-  .brush img:nth-last-of-type(2) {
-    margin-top: 20%;
-  }
   .trainerbild {
     width: 85%;
   }
+  .brushes {
+    width: 100%;
+    margin-top: -34%;
+    margin-left: 11%;
+  }
   .gruppenbild {
-    margin-top: -100%;
+    margin-top: -80%;
+    margin-left: 31%;
     height: 44vh;
-    width: 76%;
+    width: 73%;
     padding-bottom: 15%;
   }
   .digitalZukunft div {
@@ -174,7 +144,7 @@
   }
   .digitalZukunft article {
     width: 90%;
-    padding: 20% 10% 0 10%;
+    padding: 20% 10% 15% 10%;
     margin: 0 auto;
   }
   .l-section-top {
@@ -190,20 +160,17 @@
   .trainerbild {
     width: 100%;
   }
-  .brush {
-    margin-top: -20%;
-  }
-  .brush img {
-    display: block;
-    width: 220%;
-  }
-  .brush img:nth-last-of-type(2) {
-    margin-top: 30%;
+  .brushes {
+    width: 100%;
+    margin-top: -34%;
+    margin-left: 11%;
   }
   .gruppenbild {
-    height: 38vh;
-    width: 79%;
-    margin-top: -100%;
+    margin-top: -80%;
+    margin-left: 35%;
+    height: 32vh;
+    width: 73%;
+    padding-bottom: 15%;
   }
   .digitalZukunft div {
     width: 44%;
@@ -216,9 +183,6 @@
   .digitalZukunft article h2 {
     font-size: 1.4rem;
     line-height: 1.8rem;
-  }
-  .l-section-top {
-    margin-top: 15%;
   }
 }
 
@@ -237,18 +201,14 @@
   .trainerbild {
     width: 72%;
   }
-  .brush img {
-    width: 28rem;
-  }
-  .brush {
-    margin-top: -34%;
+  .brushes {
+    width: 70%;
   }
   .gruppenbild {
     margin-top: -54%;
+    margin-left: 28%;
     width: 49%;
     height: 62vh;
-    object-fit: cover;
-    isolation: isolate;
   }
   .digitalZukunft article h2 {
     line-height: 2.7rem;

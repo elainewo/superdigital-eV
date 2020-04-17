@@ -41,6 +41,8 @@
     color: gold;
 }
 
+/* ********  Versteckte Inhalte vom UeberUnsItem ******* */
+
 .vorstand-img-mobile, .ueberuns-header-mobile, .ueberunsitem-footer, .footer-socials {
     display: none;
 }

@@ -11,6 +11,7 @@ import "./Components/app.css";
 import UeberUns from "./Components/UeberUns";
 import UeberUnsItem from "./Components/UeberUnsItem";
 
+
 function App() {
   return (
     <div className="App">
@@ -26,10 +27,10 @@ function App() {
               <Switch location={location}>
                 <Route path="/" exact>
                   <Header />
-                  <Beiträge />
                   <DigitalZukunft />
-                  <UeberUns />
                   <Wirkung />
+                  <Beiträge />
+                  <UeberUns />
                   <Spenden />
                 </Route>
                 <Route

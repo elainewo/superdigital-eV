@@ -35,15 +35,15 @@ class UeberUns extends Component {
                         <p>> Wir haben Mut zum Neudenken und trauen uns alte Muster zu verlassen</p>
                     </div>
                 </div>
-                <div>
+                <div className="partner-container">
                     <p>Partner und Netzwerk</p>
-                    <div>
+                    <div className="partner">
                         <a href="#"><img src="/images/image1.png" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
+                        <a href="#"><img src="/images/image5.png" alt="" /></a>
+                        <a href="#"><img src="/images/image9.png" alt="" /></a>
+                        <a href="#"><img src="/images/super(code).png" alt="" /></a>
+                        <a href="#"><img src="/images/image10.png" alt="" /></a>
+                        <a href="#"><img src="/images/image7.png" alt="" /></a>
                     </div>
                 </div>
             </section>

@@ -9,16 +9,7 @@ class DigitalZukunft extends Component {
                 <section className="digitalZukunft">
                     <div>
                         <img className="trainerbild" src="/images/bild6.png" alt="trainer-img" />
-
-                        <div className="brush">
-                            <img src="/images/Vector0.svg" alt="" />
-                            <img src="/images/Vector1.svg" alt="" />
-                            <img src="/images/Vector2.svg" alt="" />
-                            <img src="/images/Vector3.svg" alt="" />
-                            <img src="/images/Vector4.svg" alt="" />
-                            <img className="brush2" src="/images/Vector5.svg" alt="" />
-                            <img src="/images/Vector6.svg" alt="" />
-                        </div>
+                        <img className="brushes" src="/images/yellow-stripes.png" alt="" />
                         <img className="gruppenbild" src="/images/Bild1.png" alt="gruppen-img" />
                     </div>
                     <article>

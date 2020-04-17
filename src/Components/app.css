@@ -15,20 +15,32 @@ body {
 
 /**** Transition Groups CSS ****/
 
-.fade-enter {
-    opacity: 0.01;
+/* .container {
+    position: relative;
 }
 
-.fade-enter.fade-enter-active {
+.page {
+    position: relative;
+} */
+
+.page-enter {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+}
+
+.page-enter-active {
     opacity: 1;
-    transition: opacity 500ms ease-in;
+    transform: translate3d(0, 0, 0);
+    transition: all 2000ms;
 }
 
-.fade-leave {
+.page-exit {
     opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
 
-.fade-leave.fade-leave-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
+.page-exit-active {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+    transition: all 2000ms;
 }

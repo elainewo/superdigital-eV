@@ -9,7 +9,8 @@ const Nav = () => {
         <div className="logo">
           <img src={logo} alt=""></img>
         </div>
-        <nav>
+
+        <nav className="navigation-items">
           <ul>
             <li>Home</li>
             <li>Projekte</li>

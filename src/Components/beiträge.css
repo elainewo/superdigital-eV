@@ -53,3 +53,13 @@
 .items .beschreibung {
   height: 5rem;
 }
+
+@media (max-width: 800px) {
+  .item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cool-button {
+    padding: 15px 5px;
+    font-size: 16px;
+  }
+}

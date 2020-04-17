@@ -3,12 +3,16 @@ import Nav from "./Nav";
 import HeaderItem from "./HeaderItem";
 import "./header.css";
 import "./digitalzukunft.css";
+import DrawerToggleButton from "./DrawerToggleButton";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
       <div className="header">
         <Nav />
+        <div className="toggle_button">
+          <DrawerToggleButton click={props.drawerClickHandler} />
+        </div>
         <article className="head-titel">
           <HeaderItem
             headline1="Wieviel "

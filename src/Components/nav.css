@@ -9,6 +9,7 @@ header {
 }
 header img {
   width: 15rem;
+  margin-left: 1rem;
 }
 
 .kontakt {
@@ -30,4 +31,16 @@ header ul li {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .navigation-items {
+    display: none;
+  }
+}
+
+@media (min-width: 801px) {
+  .toggle_button {
+    display: none;
+  }
 }

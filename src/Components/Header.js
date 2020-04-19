@@ -7,7 +7,7 @@ import DrawerToggleButton from "./DrawerToggleButton";
 
 const Header = (props) => {
   return (
-    <div>
+    <div id="home-header">
       <div className="header">
         <Nav />
         <div className="toggle_button">

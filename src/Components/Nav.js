@@ -22,6 +22,12 @@ const Nav = () => {
             <button className="modal" onClick={() => setModalIsOpen(true)}>
               <li className="kontakt">Kontakt</li>
             </button>
+            {/* <li><a href="#home">Home</a>
+            </li>
+            <li><a href="#beitraege">Projekte</a>
+            </li>
+            <li><a href="#uebermich">Über Mich</a></li>
+            <li className="kontakt">Kontakt</li> */}
           </ul>
         </nav>
         <Modal

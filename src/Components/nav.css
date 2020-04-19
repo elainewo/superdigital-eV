@@ -7,6 +7,7 @@ header {
   align-items: center;
   padding: 0 4.3rem;
 }
+
 header img {
   width: 15rem;
   margin-left: 1rem;
@@ -104,6 +105,11 @@ header ul li {
   border-bottom: 1px solid #000;
   width: 95%;
   height: 30px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #0079fb;
 }
 
 @media (max-width: 800px) {

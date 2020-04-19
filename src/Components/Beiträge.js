@@ -39,7 +39,7 @@ class Beiträge extends Component {
 
   render() {
     return (
-      <div className="veranstaltung">
+      <div className="veranstaltung" id="beitraege">
         <section className="buttons">
           <button
             style={

@@ -87,7 +87,9 @@ header ul li {
   outline: none;
 }
 .modal {
+  border: none;
   cursor: pointer;
+  background: none;
 }
 
 .kontact {

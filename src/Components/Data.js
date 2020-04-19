@@ -1,13 +1,31 @@
 export const contact = [
   {
     id: 0,
-    titel: "SuperDigital eV – Wir starten ab April!",
+    titel: "Kostenloser HTML & CSS Workshop für Einsteiger:innen",
     datum: "15.April 2020",
-    beschreibung:
-      "Bleib nicht stumm! Lerne deine ersten Sätze in HTML und CSS(...)",
+    beschreibung: "Bleib nicht stumm! Lerne deine ersten Sätze in HTML und CSS",
     image: "./Bild1-neu.png",
-    beschreibungLang:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    überschrift1: "### In unserem kostenlosen 3 stündigen Workshop lernst du:",
+    detail1a: "- Grundlagen zum Thema Web-Entwicklung",
+    detail1b: "- Übersicht der gängigsten Programmiersprachen",
+    detail1c: "- Grundlagen im Bereich HTML & CSS",
+    überschrift2: "### Ziele des Workshops:",
+    detail2a: "- Du weißt was Web-Entwicklung bedeutet",
+    detail2b: "- Du kannst Web-Entwicklung von anderen  IT Berufen abgrenzen",
+    detail2c: "- Du kennst die Grundlagen von HTML und CSS",
+    detail2d: "- Du kannst eine kleine eigene Webseite erstellen!! ",
+    trainer: "### Trainer / Workshop Leiter:",
+    trainer1: "- Eric Noack (SuperCode - Trainer)",
+    trainer2: "- Maher Alhallak (SuperCode - Assistant Trainer)",
+    trainer3: "- Sérgio Cardeal (SuperCode – Geschäftsführer)",
+    überschrift3: "### Anmeldung, Tickets und Gebühr:",
+    detail3:
+      "Die Tickets/Plätze sind stark limitiert – wer Interesse hat sollte sich also schnell anmelden.",
+    überschrift4: "### Technik & Verpflegung",
+    detail4: "Bring your own Laptop, Snacks und Drinks stellen wir",
+    überschrift5: "Der Workshop wird durch einen unserer Partner durchgeführt:",
+    detail5:
+      "Super(Code) - digitale Bildung für Alle. Ein modernes, gemeinwohlorientiertes und AZAV zertifiziertes Bildungsinstitut für den Bereich Webentwicklung und IoT in Düsseldorf.",
   },
   {
     id: 1,
@@ -16,8 +34,27 @@ export const contact = [
     beschreibung:
       "Bleib nicht stumm! Lerne deine ersten Sätze in HTML und CSS(...)",
     image: "./Bild2-neu.png",
-    beschreibungLang:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    überschrift1: "### In unserem kostenlosen 3 stündigen Workshop lernst du:",
+    detail1a: "- Grundlagen zum Thema Web-Entwicklung",
+    detail1b: "- Übersicht der gängigsten Programmiersprachen",
+    detail1c: "- Grundlagen im Bereich HTML & CSS",
+    überschrift2: "### Ziele des Workshops:",
+    detail2a: "- Du weißt was Web-Entwicklung bedeutet",
+    detail2b: "- Du kannst Web-Entwicklung von anderen  IT Berufen abgrenzen",
+    detail2c: "- Du kennst die Grundlagen von HTML und CSS",
+    detail2d: "- Du kannst eine kleine eigene Webseite erstellen!! ",
+    trainer: "### Trainer / Workshop Leiter:",
+    trainer1: "- Eric Noack (SuperCode - Trainer)",
+    trainer2: "- Maher Alhallak (SuperCode - Assistant Trainer)",
+    trainer3: "- Sérgio Cardeal (SuperCode – Geschäftsführer)",
+    überschrift3: "### Anmeldung, Tickets und Gebühr:",
+    detail3:
+      "Die Tickets/Plätze sind stark limitiert – wer Interesse hat sollte sich also schnell anmelden.",
+    überschrift4: "### Technik & Verpflegung",
+    detail4: "Bring your own Laptop, Snacks und Drinks stellen wir",
+    überschrift5: "Der Workshop wird durch einen unserer Partner durchgeführt:",
+    detail5:
+      "Super(Code) - digitale Bildung für Alle. Ein modernes, gemeinwohlorientiertes und AZAV zertifiziertes Bildungsinstitut für den Bereich Webentwicklung und IoT in Düsseldorf.",
   },
   {
     id: 2,
@@ -26,8 +63,27 @@ export const contact = [
     beschreibung:
       "Wir sind dabei - du auch? Fe:male Hackaton from Fe:male Innovation Hub@Sipgate(...)",
     image: "./Bild3-neu.png",
-    beschreibungLang:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    überschrift1: "### In unserem kostenlosen 3 stündigen Workshop lernst du:",
+    detail1a: "- Grundlagen zum Thema Web-Entwicklung",
+    detail1b: "- Übersicht der gängigsten Programmiersprachen",
+    detail1c: "- Grundlagen im Bereich HTML & CSS",
+    überschrift2: "### Ziele des Workshops:",
+    detail2a: "- Du weißt was Web-Entwicklung bedeutet",
+    detail2b: "- Du kannst Web-Entwicklung von anderen  IT Berufen abgrenzen",
+    detail2c: "- Du kennst die Grundlagen von HTML und CSS",
+    detail2d: "- Du kannst eine kleine eigene Webseite erstellen!! ",
+    trainer: "### Trainer / Workshop Leiter:",
+    trainer1: "- Eric Noack (SuperCode - Trainer)",
+    trainer2: "- Maher Alhallak (SuperCode - Assistant Trainer)",
+    trainer3: "- Sérgio Cardeal (SuperCode – Geschäftsführer)",
+    überschrift3: "### Anmeldung, Tickets und Gebühr:",
+    detail3:
+      "Die Tickets/Plätze sind stark limitiert – wer Interesse hat sollte sich also schnell anmelden.",
+    überschrift4: "### Technik & Verpflegung",
+    detail4: "Bring your own Laptop, Snacks und Drinks stellen wir",
+    überschrift5: "Der Workshop wird durch einen unserer Partner durchgeführt:",
+    detail5:
+      "Super(Code) - digitale Bildung für Alle. Ein modernes, gemeinwohlorientiertes und AZAV zertifiziertes Bildungsinstitut für den Bereich Webentwicklung und IoT in Düsseldorf.",
   },
   {
     id: 3,
@@ -36,7 +92,26 @@ export const contact = [
     beschreibung:
       "Welche Bildung brauchen wir und in was wollen wir uns bilden? Ein Kongress, gemeinsam mit(...)",
     image: "./Bild4-neu.png",
-    beschreibungLang:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    überschrift1: "### In unserem kostenlosen 3 stündigen Workshop lernst du:",
+    detail1a: "- Grundlagen zum Thema Web-Entwicklung",
+    detail1b: "- Übersicht der gängigsten Programmiersprachen",
+    detail1c: "- Grundlagen im Bereich HTML & CSS",
+    überschrift2: "### Ziele des Workshops:",
+    detail2a: "- Du weißt was Web-Entwicklung bedeutet",
+    detail2b: "- Du kannst Web-Entwicklung von anderen  IT Berufen abgrenzen",
+    detail2c: "- Du kennst die Grundlagen von HTML und CSS",
+    detail2d: "- Du kannst eine kleine eigene Webseite erstellen!! ",
+    trainer: "### Trainer / Workshop Leiter:",
+    trainer1: "- Eric Noack (SuperCode - Trainer)",
+    trainer2: "- Maher Alhallak (SuperCode - Assistant Trainer)",
+    trainer3: "- Sérgio Cardeal (SuperCode – Geschäftsführer)",
+    überschrift3: "### Anmeldung, Tickets und Gebühr:",
+    detail3:
+      "Die Tickets/Plätze sind stark limitiert – wer Interesse hat sollte sich also schnell anmelden.",
+    überschrift4: "### Technik & Verpflegung",
+    detail4: "Bring your own Laptop, Snacks und Drinks stellen wir",
+    überschrift5: "Der Workshop wird durch einen unserer Partner durchgeführt:",
+    detail5:
+      "Super(Code) - digitale Bildung für Alle. Ein modernes, gemeinwohlorientiertes und AZAV zertifiziertes Bildungsinstitut für den Bereich Webentwicklung und IoT in Düsseldorf.",
   },
 ];

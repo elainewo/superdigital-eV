@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap");
 .textArticle {
   margin-top: 150px;
   width: 40%;
 }
 
 .textArticle h2 {
-  color: #FFDA00;
+  color: #ffda00;
   font-size: 3.5rem;
   font-weight: 900;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
   margin-left: 7rem;
   margin-bottom: 1rem;
 }
@@ -63,9 +63,6 @@
 } */
 
 @media screen and (max-width: 700px) {
-  body {
-    background-color: rgb(63, 150, 70);
-  }
   .textArticle {
     margin-top: 150px;
     display: block;

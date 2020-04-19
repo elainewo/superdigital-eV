@@ -11,22 +11,19 @@ import "./app.css";
 import Chancen from "./Chancen";
 import UeberUns from "./UeberUns";
 import UeberUnsItem from "./UeberUnsItem";
-import { Container } from 'react-bootstrap'
-
-
+import { Container } from "react-bootstrap";
 
 const Home = () => {
-    return (
-        <div>
-
-            <Chancen />
-            <DigitalZukunft />
-            <Wirkung />
-            <Beiträge />
-            <UeberUns />
-            <Spenden />
-        </div>
-    );
-}
+  return (
+    <div>
+      <Chancen />
+      <DigitalZukunft />
+      {/* <Wirkung /> */}
+      <Beiträge />
+      <UeberUns />
+      {/* <Spenden /> */}
+    </div>
+  );
+};
 
 export default Home;

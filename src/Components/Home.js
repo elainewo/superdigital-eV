@@ -22,6 +22,7 @@ const Home = () => {
             <Chancen />
             <DigitalZukunft />
             <Wirkung />
+
             <Beiträge />
             <UeberUns />
             <Spenden />

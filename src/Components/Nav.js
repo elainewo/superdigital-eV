@@ -1,6 +1,9 @@
 import React from "react";
 import "./nav.css";
 import logo from "../superdigital.xyz.png";
+import {
+  Link
+} from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -12,9 +15,11 @@ const Nav = () => {
 
         <nav className="navigation-items">
           <ul>
-            <li>Home</li>
-            <li>Projekte</li>
-            <li>Über Mich</li>
+            <li><a href="#home">Home</a>
+            </li>
+            <li><a href="#beitraege">Projekte</a>
+            </li>
+            <li><a href="#uebermich">Über Mich</a></li>
             <li className="kontakt">Kontakt</li>
           </ul>
         </nav>

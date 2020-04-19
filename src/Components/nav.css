@@ -7,6 +7,7 @@ header {
   align-items: center;
   padding: 0 4.3rem;
 }
+
 header img {
   width: 15rem;
   margin-left: 1rem;
@@ -31,6 +32,11 @@ header ul li {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #0079fb;
 }
 
 @media (max-width: 800px) {

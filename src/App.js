@@ -75,51 +75,56 @@ class App extends Component {
       </div>
     );
   }
-  // import { Container } from 'react-bootstrap';
-  // import Home from './Components/Home';
 
-  // const routes = [
-  //   { path: '/', name: 'Home', Component: Home },
-  //   { path: '/ueberunsitem', name: 'UeberUns', Component: UeberUnsItem }
-  // ]
+// import { Container } from 'react-bootstrap';
+// import Home from './Components/Home';
 
-  // function App() {
-  //   return (
-  //     <div className="App">
+// const routes = [
+//   { path: '/', name: 'Home', Component: Home },
+//   { path: '/ueberunsitem', name: 'UeberUns', Component: UeberUnsItem }
+// ]
 
-  //       {/* ******* UeberUns mit Transition Group ****** */}
+// function App() {
+//   return (
+//     <div className="App">
 
-  //       <Switch>
+//       {/* ******* UeberUns mit Transition Group ****** */}
 
-  //         <Container className="container">
-  //           {routes.map(({ path, Component }) => (
-  //             <Route key={path} exact path={path}>
-  //               {({ match }) => (
-  //                 <CSSTransition
-  //                   in={match != null}
-  //                   timeout={2000}
-  //                   classNames="page"
-  //                   unmountOnExit
-  //                 >
+//       <Switch>
 
-  //                   <div className="page">
-  //                     <Header />
-  //                     <Component />
-  //                   </div>
-  //                 </CSSTransition>
-  //               )}
-  //             </Route>
-  //           ))}
-  //           <Route
-  //             path="/:id"
-  //             exact
-  //             render={(props) => <DetailBeitrag {...props} />}
-  //           ></Route>
-  //         </Container>
+//         <Container className="container">
+//           {routes.map(({ path, Component }) => (
+//             <Route key={path} exact path={path}>
+//               {({ match }) => (
+//                 <CSSTransition
+//                   in={match != null}
+//                   timeout={2000}
+//                   classNames="page"
+//                   unmountOnExit
+//                 >
 
-  //       </Switch>
+//                   <div className="page">
+//                     <Header />
 
-  /* <Switch>
+//                     <Component />
+//                   </div>
+//                 </CSSTransition>
+//               )}
+//             </Route>
+//           ))}
+//           <Route path="/beitraege">
+//             <Beiträge />
+//           </Route>
+//           {/* <Route
+//             path="/:id"
+//             exact
+//             render={(props) => <DetailBeitrag {...props} />}
+//           ></Route> */}
+//         </Container>
+
+//       </Switch>
+
+/* <Switch>
         <Route path='/' exact>
           <Header />
           <Chancen />
@@ -137,8 +142,7 @@ class App extends Component {
           exact
           render={(props) => <DetailBeitrag {...props} />}
         ></Route>
-      </Switch> */
-}
+      </Switch>  */}
 //     </div >
 //   );
 // }

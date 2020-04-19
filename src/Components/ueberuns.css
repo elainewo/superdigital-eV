@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5% 0 9%;
+    padding: 5% 0;
 }
 
 .ueberuns-container {
@@ -20,15 +20,22 @@
     line-height: 1.8rem;
     margin-top: 5%;
     margin-left: 5%;
+    width: 60%;
 }
 
 .ueberuns-container article div:nth-of-type(2) h4 {
     font-size: 1.7rem;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+    display: inline-block;
+    isolation: isolate;
 }
 
 .ueberuns-container article div:nth-of-type(2) p {
     font-size: .9rem;
+}
+
+.vorstand-beschreibung {
+    font-weight: bold;
 }
 
 .img-bg img {
@@ -36,15 +43,10 @@
     padding: 5%;
 }
 
-.img-bg {
-    background: url("/images/Group89.svg") left/contain no-repeat;
-    background-size: 59%;
-}
-
 .brush-img {
     margin-bottom: -2.5%;
-    margin-left: -26%;
-    width: 35%;
+    margin-left: -42%;
+    width: 45%;
 }
 
 .ueberUns h2 {
@@ -54,19 +56,17 @@
 
 .ueberUns h3 {
     font-size: 2.5rem;
-    display: inline-block;
-    isolation: isolate;
-    margin-bottom: 9%;
+    margin-bottom: 0%;
 }
 
 .ueberuns-text {
-    align-self: flex-end;
+    align-self: center;
     width: 42%;
-    margin-left: -9%;
+    margin-left: -4%;
 }
 
 .ueberuns-text p {
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 
 #arrow:hover {
@@ -80,8 +80,13 @@
 /********** Media Queries **********/
 
 @media only screen and (max-width: 600px) {
-    .ueberUns h2 {
-        margin-bottom: 15%;
+    .ueberUns h3 {
+        font-size: 2.5rem;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .vorstand-beschreibung {
+        display: none;
     }
     .ueberuns-container {
         display: grid;
@@ -92,33 +97,31 @@
         width: 100%;
     }
     .ueberuns-container article div:nth-of-type(2) h4 {
-        font-size: 2rem;
-        margin-bottom: 6%;
+        font-size: 1.7rem;
+        margin-bottom: 7%;
+        display: inline-block;
+        isolation: isolate;
     }
     .img-bg img {
         width: 89%;
     }
     .img-bg {
+        background: url("/images/Group89.svg") left/contain no-repeat;
         background-size: 100%;
         text-align: center;
     }
     #arrow {
         margin-bottom: 20%;
+        display: block;
     }
     .ueberuns-text {
         width: 80%;
         margin: 0 auto;
     }
     .brush-img {
-        display: inline-block;
-        margin-left: -2%;
-        margin-top: -5%;
-        margin-bottom: 10%;
-        width: 60%;
-    }
-    .ueberUns h3 {
-        font-size: 2.5rem;
-        margin-bottom: -5%;
+        margin-bottom: -5.5%;
+        margin-left: -70%;
+        width: 75%;
     }
     .ueberuns-text p {
         line-height: 1.3rem;
@@ -147,12 +150,13 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .ueberuns-container article div:nth-of-type(2) h4 {
+        font-size: 1.3rem;
+    }
     .brush-img {
-        display: inline-block;
-        margin-left: 46%;
-        margin-top: -18%;
-        margin-bottom: 10%;
-        width: 60%;
+        margin-bottom: -6%;
+        margin-left: -64%;
+        width: 70%;
     }
     .ueberuns-text {
         width: 50%;
@@ -162,12 +166,23 @@
         margin-bottom: 2%;
         font-size: 1.1rem;
     }
+    .vorstand-beschreibung {
+        line-height: 1.3rem;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
+    .ueberUns h3 {
+        font-size: 2.5rem;
+        margin-bottom: 0%;
+    }
     .brush-img {
-        margin-bottom: -2.5%;
-        margin-left: -26%;
-        width: 35%;
+        margin-bottom: -4%;
+        margin-left: -38%;
+        width: 45%;
+    }
+    .ueberuns-text {
+        width: 42%;
+        margin-left: -4%;
     }
 }

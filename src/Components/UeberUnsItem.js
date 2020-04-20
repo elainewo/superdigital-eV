@@ -31,15 +31,9 @@ class UeberUnsItem extends Component {
                         <a href="#"><FaLinkedin size="2rem" /></a>
                         <a href="#"><FaFacebookSquare size="2rem" /></a>
                     </div>
-                    <p>zwei Zeilen. Hier steht eine h1 über zwei Zeilen Hier steht eine h2 über zwei Zeilen.
-                    Hier steht eine h1 über zwei Zeilen Hier steht eine h2 über zwei Zeilen.Hier steht eine
-                    h1 über zwei Zeilen Hier steht eine h2 über zwei Zeilen.Hier steht eine h1 über zwei Zeilen
-                    Hier steht eine h2 über zwei Zeilen.Hier steht eine h1 über zwei Zeilen Hier steht
-                    eine h2 über zwei Zeilen.
+                    <p>Ich begeistere ich mich für den Schnittpunkt von Digitalisierung, Bildung und sozialer und digitaler Teilhabe. Daher arbeite ich seit mehreren Jahren in der digitalen Bildungsbranche.
                     </p>
-                    <p>Hier steht eine h1 über zwei Zeilen Hier steht eine h2 über zwei Zeilen.Hier steht eine
-                    h1 über zwei Zeilen Hier steht eine h2 über zwei Zeilen.Hier steht eine h1 über zwei Zeilen
-                    Hier steht eine h2 über zwei Zeilen.
+                    <p>Als Gründungsmitglied und Vorstand des gemeinnützigen Vereins SuperDigital e.V. verfolge ich das Ziel die digitalen Fähigkeiten in unserer Gesellschaft zu fördern und damit die Teilhabe im digitalen als auch analogen Raum erhöhen. Vor allem von Menschen, welche im digitalen Raum bisher noch unterrespäsentiert sind. Eine kritische Auseinandersetzung über Digitalisierung und Gesellschaftsprozessen liegt mir sehr am Herzen.
                     </p>
                 </article>
                 <img className="vorstand-img" src="/images/people.png" alt="" />

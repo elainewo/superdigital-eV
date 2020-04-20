@@ -57,3 +57,11 @@
     height: 200px;
   }
 }
+@media (max-width: 600px) {
+  .header h2 {
+    font-size: 3.5rem;
+  }
+  .header h3 {
+    font-size: 3.5rem;
+  }
+}

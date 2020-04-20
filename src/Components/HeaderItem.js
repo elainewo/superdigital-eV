@@ -22,11 +22,11 @@ const HeaderItem = (props) => {
         <TextLoop mask={true}>
           <div>
             <span>
-              <h3>{props.second1}</h3>
+              <h2>{props.second1}</h2>
             </span>
           </div>
           <div>
-            <h3>{props.second2}</h3>
+            <h2>{props.second2}</h2>
           </div>
         </TextLoop>
       </div>

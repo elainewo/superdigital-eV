@@ -11,8 +11,14 @@ import "./Components/app.css";
 import Chancen from "./Components/Chancen";
 import UeberUns from "./Components/UeberUns";
 import UeberUnsItem from "./Components/UeberUnsItem";
+import Home from "./Components/Home";
 import SideDrawer from "./Components/SideDrawer";
 import Backdrop from "./Components/Backdrop";
+
+const routes = [
+  { path: "/", name: "Home", Component: Home },
+  { path: "/ueberunsitem", name: "UeberUns", Component: UeberUnsItem },
+];
 
 class App extends Component {
   state = {
@@ -37,88 +43,38 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <Route
-          render={({ location }) => (
-            <TransitionGroup>
-              <CSSTransition
-                key={location.key}
-                transitionName="fade"
-                transitionEnterTimeout={500}
-                transitionLeaveTimeout={300}
-              >
-                <Switch location={location}>
-                  <Route path="/" exact>
-                    {/* <Header drawerClickHandler={this.drawerToggleHandler} />
-                    <SideDrawer show={this.state.sideDrawerOpen} />
-                    {backdrop}
-                    <Chancen />
-                    <DigitalZukunft /> */}
-                    <Wirkung />
-                    {/* <Beiträge />
-                    <UeberUns /> */}
-                    <Spenden />
-                  </Route>
-                  <Route
-                    path="/:id"
-                    exact
-                    render={(props) => <DetailBeitrag {...props} />}
-                  ></Route>
-                  <Route path="/ueberunsitem" exact>
-                    <UeberUnsItem />
-                  </Route>
-                </Switch>
-              </CSSTransition>
-            </TransitionGroup>
-          )}
-        />
-      </div>
-    );
-  }
-  // import { Container } from 'react-bootstrap';
-  // import Home from './Components/Home';
+        {/* ******* UeberUns mit Transition Group ****** */}
 
-  // const routes = [
-  //   { path: '/', name: 'Home', Component: Home },
-  //   { path: '/ueberunsitem', name: 'UeberUns', Component: UeberUnsItem }
-  // ]
+        <Switch>
+          <div className="container">
+            {routes.map(({ path, Component }) => (
+              <Route key={path} exact path={path}>
+                {({ match }) => (
+                  <CSSTransition
+                    in={match != null}
+                    timeout={500}
+                    classNames="page"
+                    unmountOnExit
+                  >
+                    <div className="page">
+                      <Header drawerClickHandler={this.drawerToggleHandler} />
+                      <SideDrawer show={this.state.sideDrawerOpen} />
+                      {backdrop}
+                      <Component />
+                    </div>
+                  </CSSTransition>
+                )}
+              </Route>
+            ))}
+            <Route
+              path="/:id"
+              exact
+              render={(props) => <DetailBeitrag {...props} />}
+            ></Route>
+          </div>
+        </Switch>
 
-  // function App() {
-  //   return (
-  //     <div className="App">
-
-  //       {/* ******* UeberUns mit Transition Group ****** */}
-
-  //       <Switch>
-
-  //         <Container className="container">
-  //           {routes.map(({ path, Component }) => (
-  //             <Route key={path} exact path={path}>
-  //               {({ match }) => (
-  //                 <CSSTransition
-  //                   in={match != null}
-  //                   timeout={2000}
-  //                   classNames="page"
-  //                   unmountOnExit
-  //                 >
-
-  //                   <div className="page">
-  //                     <Header />
-  //                     <Component />
-  //                   </div>
-  //                 </CSSTransition>
-  //               )}
-  //             </Route>
-  //           ))}
-  //           <Route
-  //             path="/:id"
-  //             exact
-  //             render={(props) => <DetailBeitrag {...props} />}
-  //           ></Route>
-  //         </Container>
-
-  //       </Switch>
-
-  /* <Switch>
+        {/* <Switch>
         <Route path='/' exact>
           <Header />
           <Chancen />
@@ -136,9 +92,53 @@ class App extends Component {
           exact
           render={(props) => <DetailBeitrag {...props} />}
         ></Route>
-      </Switch> */
+      </Switch> 
+} */}
+      </div>
+    );
+  }
 }
-//     </div >
-//   );
-// }
 export default App;
+
+// import { Container } from 'react-bootstrap';
+
+{
+  /* <div className="App">
+        <Route
+          render={({ location }) => (
+            <TransitionGroup>
+              <CSSTransition
+                key={location.key}
+                transitionName="fade"
+                transitionEnterTimeout={500}
+                transitionLeaveTimeout={300}
+              >
+                <Switch location={location}>
+                  <Route path="/" exact>
+                    {/* <Header drawerClickHandler={this.drawerToggleHandler} />
+                    <SideDrawer show={this.state.sideDrawerOpen} />
+                    {backdrop}
+                    <Chancen />
+                    <DigitalZukunft /> */}
+{/* <Wirkung />
+{/* <Beiträge />
+                    <UeberUns /> */}
+{/* <Spenden /> */ }
+                  // </Route >
+  // <Route
+//     path="/:id"
+//     exact
+//     render={(props) => <DetailBeitrag {...props} />}
+//   ></Route>
+//   <Route path="/ueberunsitem" exact>
+//     <UeberUnsItem />
+//   </Route>
+//                 </Switch >
+//               </CSSTransition >
+//             </TransitionGroup >
+//           )}
+// />
+//       </div >
+//     );
+//   } * /
+// } */}

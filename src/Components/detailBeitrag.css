@@ -8,17 +8,96 @@
 .karteItem {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  height: 100vh;
   width: 80%;
-  margin: 2rem;
+  margin: 1rem 2rem 0;
 }
 .karteItem .strich1 {
   margin: 2rem 0;
 }
-.karteItem h2 {
-  margin-bottom: 3rem;
-  font-size: 3rem;
+.karteItem h5 {
+  font-size: 2rem;
 }
-.karteItem p {
-  margin: 5rem 0;
+.karteItem h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.karteItem .beschreibung {
+  margin: 1rem 0;
+}
+.datum {
+  margin-bottom: 0.8rem;
+  margin-left: 1.5rem;
+}
+.überschrift {
+  margin-left: 1.5rem;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 1rem;
+}
+.cool-button3 a {
+  text-decoration: none;
+  color: #000;
+}
+.cool-button3 {
+  margin-left: 1rem;
+  font-size: 20px;
+  width: 190px;
+  background-color: white;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: 5px 1px;
+  font-family: "Ubuntu", sans-serif;
+  box-shadow: 3px 8px 0px 0px rgb(32, 163, 255);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.cool-button3:hover {
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px 0px MediumVioletRed;
+}
+
+.cool-button3:active {
+  outline: none;
+  color: white;
+  box-shadow: -3px 4px 0px 0px white;
+  background-color: MediumVioletRed;
+}
+
+.buttons {
+  margin-bottom: -6.5rem;
+  margin-left: 3rem;
+}
+
+.cool-button3:focus {
+  outline: none;
+}
+
+@media (max-width: 800px) {
+  .karte {
+    grid-template-columns: 1fr;
+  }
+  .karte .bildKarte {
+    grid-row: 1;
+    width: 100%;
+    height: auto;
+  }
+  .karteItem {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .karteItem {
+    margin: 0 auto;
+  }
+  .karte .bildKarte {
+    width: 90%;
+    height: auto;
+  }
+  .wrapper {
+    margin-left: -15px;
+  }
 }

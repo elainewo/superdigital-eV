@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './Spenden.css';
 import SpendenPopup from './SpendenPopup'
 import Partnerschaft from './Partnerschaft'
+// import Modal from "react-modal";
+// import { FaArrowLeft } from "react-icons/fa";
+// Modal.setAppElement("#root");
 
 // function Spenden() {
 //   return (
@@ -17,11 +20,29 @@ import Partnerschaft from './Partnerschaft'
 //     </div>
 //   );
 // }
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
 
 class Spenden extends Component {
   state = {
-    spenden: false, patnerschaft: false
+    spenden: false, patnerschaft: false, name: "", email: "", message: ""
   }
+  handleSubmit = (e) => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state }),
+    })
+      .then(() => alert("Success!"))
+      .catch((error) => alert(error));
+
+    e.preventDefault();
+  };
+
+  handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
   handleSpenden = () => {
     this.setState({ spenden: !this.state.spenden });
   }
@@ -38,10 +59,18 @@ class Spenden extends Component {
             <button className="SpendenBtn Spen" onClick={this.handleSpenden}>Spenden</button>
             <button className="SpendenBtn" onClick={this.handlePartnerschaft}>Partnerschaft</button>
           </div>
-          <SpendenPopup handleSpenden={this.handleSpenden} show={this.state.spenden} />
-          <Partnerschaft handlePartnerschaft={this.handlePartnerschaft} show={this.state.patnerschaft} />
+
+
+
         </div>
-      </div>
+        <SpendenPopup handleSpenden={this.handleSpenden} show={this.state.spenden} />
+        <Partnerschaft
+          handlePartnerschaft={this.handlePartnerschaft}
+          show={this.state.patnerschaft}
+          handleChange={this.handleChange}
+          handleSubmit={this.handleSubmit}
+        />
+      </div >
     );
   }
 }

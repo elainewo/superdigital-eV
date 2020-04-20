@@ -51,11 +51,11 @@ class DetailBeitrag extends Component {
               />
             </svg>
           </Link>
+          <p className="datum">{contact[this.state.index].datum}</p>
+          <h5 className="überschrift">{contact[this.state.index].titel}</h5>
 
-          <h2>{contact[this.state.index].titel}</h2>
-          <h4>{contact[this.state.index].datum}</h4>
-          <img className="strich1" src={image} alt=""></img>
-          <div>
+          {/* <img className="strich1" src={image} alt=""></img> */}
+          {/* <div>
             <a href="#">
               <FaInstagram size="2rem" />
             </a>
@@ -65,8 +65,44 @@ class DetailBeitrag extends Component {
             <a href="#">
               <FaFacebookSquare size="2rem" />
             </a>
+          </div> */}
+          <h3 className="beschreibung">
+            {contact[this.state.index].beschreibung}
+          </h3>
+          <h3>{contact[this.state.index].überschrift1}</h3>
+          <p>{contact[this.state.index].detail1a}</p>
+          <p>{contact[this.state.index].detail1b}</p>
+          <p>{contact[this.state.index].detail1c}</p>
+          <h3>{contact[this.state.index].überschrift2}</h3>
+          <p>{contact[this.state.index].detail2a}</p>
+          <p>{contact[this.state.index].detail2b}</p>
+          <p>{contact[this.state.index].detail2c}</p>
+          <p>{contact[this.state.index].detail2d}</p>
+          <h3>{contact[this.state.index].trainer}</h3>
+          <p>{contact[this.state.index].trainer1}</p>
+          <p>{contact[this.state.index].trainer2}</p>
+          <p>{contact[this.state.index].trainer3}</p>
+          <h3>{contact[this.state.index].überschrift3}</h3>
+          <p>{contact[this.state.index].detail3}</p>
+          <h3>{contact[this.state.index].überschrift4}</h3>
+          <p>{contact[this.state.index].detail4}</p>
+          <h3>{contact[this.state.index].überschrift5}</h3>
+          <p>{contact[this.state.index].detail5}</p>
+          <div className="wrapper">
+            <button className="cool-button3" href="#contained-buttons">
+              <a
+                href="https://www.eventbrite.de/e/webinar-html-css-workshop-fur-anfanger-tickets-102889543394?discount=superdigital"
+                target="blank"
+              >
+                Tickets
+              </a>
+            </button>
+            <button className="cool-button3">
+              <a href="https://www.super-code.de/" target="blank">
+                Webseite
+              </a>
+            </button>
           </div>
-          <p>{contact[this.state.index].beschreibungLang}</p>
         </article>
         <img
           className="bildKarte"

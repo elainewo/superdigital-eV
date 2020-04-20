@@ -1,20 +1,115 @@
-import React from "react";
+import React, { useState } from "react";
 import "./sideDrawer.css";
+import {
+  FaArrowLeft,
+  FaCommentDots,
+  FaHome,
+  FaHashtag,
+  FaHeartbeat,
+} from "react-icons/fa";
+import Modal from "react-modal";
+Modal.setAppElement("#root");
 
 const SideDrawer = (props) => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   let drawerClasses = "side-drawer";
   if (props.show) {
     drawerClasses = "side-drawer open";
   }
   return (
-    <nav className={drawerClasses}>
-      <ul>
-        <li>Home</li>
-        <li>Projekte</li>
-        <li>Über Mich</li>
-        <li>Kontakt</li>
-      </ul>
-    </nav>
+    <div>
+      <nav className={drawerClasses}>
+        <ul>
+          <li>
+            <a href="#home">
+              <FaHome size="1.5rem" />
+              <span className="icon1"> Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#beitraege">
+              <FaCommentDots size="1.5rem" />
+              <span className="icon1">Projekte</span>
+            </a>
+          </li>
+          <li>
+            <a href="#uebermich">
+              {" "}
+              <FaHeartbeat size="1.5rem" />
+              <span className="icon1">Über Mich</span>
+            </a>
+          </li>
+          <button className="modal1" onClick={() => setModalIsOpen(true)}>
+            <li className="kontakt1">
+              <FaHashtag size="1.5rem" />
+              <span className="icon1">Kontakt</span>
+            </li>
+          </button>
+        </ul>
+      </nav>
+      <Modal
+        isOpen={modalIsOpen}
+        shouldCloseOnOverlayClick={false}
+        onRequestClose={() => setModalIsOpen(false)}
+        style={{
+          overlay: {
+            background: "grey",
+            opacity: ".8",
+          },
+          content: {
+            width: "60%",
+            height: "60%",
+            margin: "auto",
+          },
+        }}
+      >
+        <h2>Mit Uns in Kontakt treten</h2>
+        <p>
+          Wenn du Fragen oder Anregungen hast, kannst du uns über das Formular
+          erreichen.
+        </p>
+        <h3 className="kontact">Kontakt</h3>
+        <p>
+          <label className="daten">Name</label>
+          <input
+            className="input"
+            type="name"
+            name=""
+            id=""
+            placeholder="Vor- und Nachname"
+          />
+        </p>
+        <p>
+          <label className="daten">Email Adress</label>
+          <input
+            className="input"
+            type="email"
+            name=""
+            id=""
+            placeholder="Hier dein Email"
+          />
+        </p>
+        <p>
+          <label className="daten">Nachricht</label>
+          <input
+            className="input"
+            type="text"
+            name=""
+            id=""
+            placeholder="Schreib uns deine Nachricht"
+          />
+        </p>
+        <div className="submit">
+          <button className="cool-button4">Senden</button>
+        </div>
+        <div>
+          <button className="close" onClick={() => setModalIsOpen(false)}>
+            <FaArrowLeft size="2rem" />
+            zurück / or press ESC
+          </button>
+        </div>
+      </Modal>
+    </div>
   );
 };
 

@@ -35,7 +35,7 @@
 .item {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   grid-gap: 1rem;
   background: #004a6f;
@@ -48,7 +48,7 @@
   padding: 2rem;
 }
 .items h2 {
-  height: 5rem;
+  height: 6.5rem;
 }
 .items .beschreibung {
   height: 5rem;
@@ -68,7 +68,7 @@
   .item {
     margin-top: 6rem;
     grid-template-columns: 1fr;
-    width: 75%;
+    width: 100%;
   }
 
   .cool-button {

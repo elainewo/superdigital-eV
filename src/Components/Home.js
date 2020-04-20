@@ -20,10 +20,10 @@ const Home = () => {
     <div>
       <Chancen />
       <DigitalZukunft />
-      {/* <Wirkung /> */}
+      <Wirkung />
       <Beiträge />
       <UeberUns />
-      {/* <Spenden /> */}
+      <Spenden />
       <FooterNav />
       <Partner />
     </div>

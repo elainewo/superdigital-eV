@@ -4,7 +4,7 @@ export const contact = [
     titel: "Kostenloser HTML & CSS Workshop für Einsteiger:innen",
     datum: "15.April 2020",
     beschreibung: "Bleib nicht stumm! Lerne deine ersten Sätze in HTML und CSS",
-    image: "./Bild1-neu.png",
+    image: "../Bild1-neu.png",
     überschrift1: "### In unserem kostenlosen 3 stündigen Workshop lernst du:",
     detail1a: "- Grundlagen zum Thema Web-Entwicklung",
     detail1b: "- Übersicht der gängigsten Programmiersprachen",
@@ -33,7 +33,7 @@ export const contact = [
     datum: "21.April 2020",
     beschreibung:
       "Bleib nicht stumm! Lerne deine ersten Sätze in HTML und CSS(...)",
-    image: "./Bild2-neu.png",
+    image: "../Bild2-neu.png",
     überschrift1: "### In unserem kostenlosen 3 stündigen Workshop lernst du:",
     detail1a: "- Grundlagen zum Thema Web-Entwicklung",
     detail1b: "- Übersicht der gängigsten Programmiersprachen",
@@ -62,7 +62,7 @@ export const contact = [
     datum: "26.April 2020",
     beschreibung:
       "Wir sind dabei - du auch? Fe:male Hackaton from Fe:male Innovation Hub@Sipgate(...)",
-    image: "./Bild3-neu.png",
+    image: "../Bild3-neu.png",
     überschrift1: "### In unserem kostenlosen 3 stündigen Workshop lernst du:",
     detail1a: "- Grundlagen zum Thema Web-Entwicklung",
     detail1b: "- Übersicht der gängigsten Programmiersprachen",
@@ -91,7 +91,7 @@ export const contact = [
     datum: "28.April 2020",
     beschreibung:
       "Welche Bildung brauchen wir und in was wollen wir uns bilden? Ein Kongress, gemeinsam mit(...)",
-    image: "./Bild4-neu.png",
+    image: "../Bild4-neu.png",
     überschrift1: "### In unserem kostenlosen 3 stündigen Workshop lernst du:",
     detail1a: "- Grundlagen zum Thema Web-Entwicklung",
     detail1b: "- Übersicht der gängigsten Programmiersprachen",

@@ -14,7 +14,7 @@ const FooterNav = (props) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <div>
-      <header>
+      <header className="unten2">
         <div className="logo">
           <div className="socialNet">
             <div className="sozial">

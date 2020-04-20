@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+.WirkungSection {
+  display: flex;
+  height: 100vh;
+}
+
 .textArticle {
   margin-top: 150px;
   width: 40%;
+  margin-left: 7rem;
 }
 
 .textArticle h2 {
@@ -9,20 +19,15 @@
   font-size: 3.5rem;
   font-weight: 900;
   font-family: "Ubuntu Mono", monospace;
-  margin-left: 7rem;
-  margin-bottom: 1rem;
+  /* margin-left: 7rem;
+  margin-bottom: 1rem; */
 }
 
 .textArticle p {
-  width: 40%;
-  margin-left: 7rem;
+  /* width: 40%; */
+  /* margin-left: 7rem; */
   line-height: 25px;
   height: 300px;
-}
-
-.WirkungSection {
-  display: flex;
-  height: 70vh;
 }
 
 .WirkungSection .imgArticle {
@@ -34,9 +39,11 @@
 }
 
 .WirkungSection .imgArticle img {
-  margin: 0 50px;
-  width: 70%;
-  height: auto;
+  margin: 0 20px;
+  /* width: 70%;
+  height: auto; */
+  height: 100%;
+  width: auto;
 }
 
 .wirkungsBtnDiv {
@@ -47,36 +54,118 @@
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-size: 20px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   color: #000;
   border: 1px solid #000;
   border-radius: 50%;
   padding: 10px 13px;
-  /* transition: transform .1s ease; */
   margin: 10px;
   outline: none;
 }
 
-/* .Btn:hover {
-  transform: translateY(2px);
-    box-shadow: 0px 0px 0px 0px #000;
-} */
-
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
+  .WirkungSection {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* .WirkungSection .imgArticle img {
+    width: 65%;
+    height: auto;
+    margin: 30px 20px;
+  } */
   .textArticle {
-    margin-top: 150px;
-    display: block;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .textArticle h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-family: "Ubuntu Mono", monospace;
+  }
+  .textArticle p {
+    line-height: 25px;
+    height: 300px;
+  }
+  .WirkungSection {
+    display: flex;
   }
   .WirkungSection .imgArticle {
-    display: block;
-    margin-top: 200px;
-    margin-left: 7rem;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
     overflow: hidden;
   }
+  .wirkungsBtnDiv {
+    text-align: center;
+    margin: 10px auto;
+  }
+  .Btn {
+    padding: 7px 9px;
+    margin: 10px;
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .WirkungSection {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imgArticle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .WirkungSection .imgArticle {
+    min-height: 300px;
+  }
   .WirkungSection .imgArticle img {
-    margin: 0 50px;
-    width: 70%;
-    height: auto;
-    display: block;
+    width: auto;
+    min-height: 300px;
+  }
+  .WirkungSection .imgArticle img:nth-of-type(2) {
+    display: none;
+  }
+  .textArticle {
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .textArticle h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-family: "Ubuntu Mono", monospace;
+  }
+  .textArticle p {
+    line-height: 25px;
+    height: 300px;
+  }
+  .WirkungSection {
+    display: flex;
+  }
+  .WirkungSection .imgArticle {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+  .wirkungsBtnDiv {
+    text-align: center;
+    margin: 10px auto;
+  }
+  .Btn {
+    padding: 7px 9px;
+    margin: 10px;
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .textArticle p {
+    line-height: 25px;
+    height: 400px;
   }
 }

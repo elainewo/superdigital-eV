@@ -1,0 +1,24 @@
+.spenden-popup {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    left: 0;
+    /* transform: translate(-50% -50%); */
+    /* grid-column: 1 / span 2; */
+    width: 100%;
+    height: 100vh;
+   
+}
+.spenden-popup-inner {
+    width: 60%;
+    margin: 50px auto;
+    background: rgb(0, 72, 115);
+    padding: 40px;
+}
+.spenden-popup-inner h1 {
+    font-size: 2rem;
+}
+.spenden-popup-inner p {
+    font-size: 1.5rem;
+    margin-left: 15px ;
+}

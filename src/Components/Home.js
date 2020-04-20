@@ -13,6 +13,7 @@ import UeberUns from "./UeberUns";
 import UeberUnsItem from "./UeberUnsItem";
 import { Container } from "react-bootstrap";
 
+
 const Home = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const Home = () => {
       <Beiträge />
       <UeberUns />
       {/* <Spenden /> */}
+
     </div>
   );
 };

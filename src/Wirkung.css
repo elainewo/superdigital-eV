@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .WirkungSection {
   display: flex;
   height: 100vh;
@@ -19,13 +20,10 @@ body {
   font-size: 3.5rem;
   font-weight: 900;
   font-family: "Ubuntu Mono", monospace;
-  /* margin-left: 7rem;
-  margin-bottom: 1rem; */
+  margin-bottom: 1rem;
 }
 
 .textArticle p {
-  /* width: 40%; */
-  /* margin-left: 7rem; */
   line-height: 25px;
   height: 300px;
 }
@@ -33,7 +31,7 @@ body {
 .WirkungSection .imgArticle {
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: 7rem;
   overflow: hidden;
 }

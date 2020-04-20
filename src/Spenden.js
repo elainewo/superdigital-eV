@@ -52,6 +52,7 @@ class Spenden extends Component {
   render() {
     return (
       <div className="SpendenSection">
+        <div className="triDiv"></div>
         <h1>Mach mit!</h1>
         <div className="SpendenTxtDiv">
           <p> Mit einem kleinen Team und großen Netzwerk engagieren wir uns für ein freies Internet und eine offene digitale Gesellschaft. Um unsere Arbeit fortzusetzen und auszubauen, brauchen wir eure Unterstützung. Wir freuen uns über Eure Spende und Partnerschaft:</p>

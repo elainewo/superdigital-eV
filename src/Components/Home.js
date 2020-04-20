@@ -12,6 +12,8 @@ import Chancen from "./Chancen";
 import UeberUns from "./UeberUns";
 import UeberUnsItem from "./UeberUnsItem";
 import { Container } from "react-bootstrap";
+import FooterNav from "./FooterNav";
+import Partner from "./Partner";
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
       <Beiträge />
       <UeberUns />
       {/* <Spenden /> */}
+      <FooterNav />
+      <Partner />
     </div>
   );
 };

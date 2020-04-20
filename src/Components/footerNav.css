@@ -1,0 +1,160 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  height: 5rem;
+  align-items: center;
+  padding: 0 4.3rem;
+}
+
+header img {
+  width: 15rem;
+  margin-left: 1rem;
+}
+
+.kontakt {
+  border: 1px solid #0079fb;
+  border-radius: 1rem;
+  padding: 0.2rem 0.6rem;
+  color: #0079fb;
+  margin-top: -0.2rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+.logo .socialNet a {
+  margin-left: 1rem;
+  color: #000;
+}
+
+header ul li {
+  margin-left: 2rem;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.cool-button4 {
+  margin-top: 1rem;
+  font-size: 20px;
+  width: 110px;
+  background-color: white;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: 1px 1px;
+  font-family: "Ubuntu", sans-serif;
+  box-shadow: 3px 8px 0px 0px rgb(32, 163, 255);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.cool-button4:hover {
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px 0px MediumVioletRed;
+}
+
+.cool-button4:active {
+  outline: none;
+  color: white;
+  box-shadow: -3px 4px 0px 0px white;
+  background-color: MediumVioletRed;
+}
+
+.buttons {
+  margin-bottom: -6.5rem;
+  margin-left: 3rem;
+}
+
+.cool-button4:focus {
+  outline: none;
+}
+
+.close {
+  margin-top: 4rem;
+  display: flex;
+  font-size: 1.5rem;
+  background: none;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  width: 20rem;
+  height: 4rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.close:focus {
+  outline: none;
+}
+.modal:focus {
+  outline: none;
+}
+.modal3 {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.modal3:focus {
+  outline: none;
+}
+.modal3 {
+  border: none;
+  cursor: pointer;
+  background: none;
+  margin-left: 4rem;
+}
+
+.kontact {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.daten {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 95%;
+  height: 30px;
+}
+
+header ul li .untenLink {
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 800px) {
+  .navigation-items {
+    display: none;
+  }
+  header {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 801px) {
+  .toggle_button {
+    display: none;
+  }
+  .modal3 {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    width: 100%;
+    padding: 0;
+  }
+  .socialNet {
+    display: flex;
+    justify-content: space-between;
+  }
+}

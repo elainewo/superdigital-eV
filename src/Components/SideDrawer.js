@@ -6,6 +6,9 @@ import {
   FaHome,
   FaHashtag,
   FaHeartbeat,
+  FaAlignLeft,
+  FaAt,
+  FaBook,
 } from "react-icons/fa";
 import Modal from "react-modal";
 Modal.setAppElement("#root");
@@ -23,7 +26,7 @@ const SideDrawer = (props) => {
           <li>
             <a href="#home">
               <FaHome size="1.5rem" />
-              <span className="icon1"> Home</span>
+              <span className="icon1">Home</span>
             </a>
           </li>
           <li>
@@ -39,9 +42,28 @@ const SideDrawer = (props) => {
               <span className="icon1">Über Mich</span>
             </a>
           </li>
+
+          <li>
+            <a href="#home">
+              <FaAlignLeft size="1.5rem" />
+              <span className="icon1">Impressum</span>
+            </a>
+          </li>
+          <li>
+            <a href="#beitraege">
+              <FaHashtag size="1.5rem" />
+              <span className="icon1">DSGVO</span>
+            </a>
+          </li>
+          <li>
+            <a href="#uebermich">
+              <FaBook size="1.5rem" />
+              <span className="icon1">Satzung</span>
+            </a>
+          </li>
           <button className="modal1" onClick={() => setModalIsOpen(true)}>
             <li className="kontakt1">
-              <FaHashtag size="1.5rem" />
+              <FaAt size="1.5rem" />
               <span className="icon1">Kontakt</span>
             </li>
           </button>

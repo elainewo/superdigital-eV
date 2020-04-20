@@ -111,7 +111,7 @@ header ul li {
 
 header ul li a {
   text-decoration: none;
-  color: #0079fb;
+  color: #fff;
 }
 
 @media (max-width: 800px) {

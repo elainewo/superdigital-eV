@@ -11,7 +11,6 @@ import "./Components/app.css";
 import Chancen from "./Components/Chancen";
 import UeberUns from "./Components/UeberUns";
 import UeberUnsItem from "./Components/UeberUnsItem";
-
 import SideDrawer from "./Components/SideDrawer";
 import Backdrop from "./Components/Backdrop";
 
@@ -49,14 +48,14 @@ class App extends Component {
               >
                 <Switch location={location}>
                   <Route path="/" exact>
-                    <Header drawerClickHandler={this.drawerToggleHandler} />
+                    {/* <Header drawerClickHandler={this.drawerToggleHandler} />
                     <SideDrawer show={this.state.sideDrawerOpen} />
                     {backdrop}
                     <Chancen />
-                    <DigitalZukunft />
+                    <DigitalZukunft /> */}
                     <Wirkung />
-                    <Beiträge />
-                    <UeberUns />
+                    {/* <Beiträge />
+                    <UeberUns /> */}
                     <Spenden />
                   </Route>
                   <Route

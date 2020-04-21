@@ -90,15 +90,12 @@ class DetailBeitrag extends Component {
           <p>{contact[this.state.index].detail5}</p>
           <div className="wrapper">
             <button className="cool-button3 btn-11" href="#contained-buttons">
-              <a
-                href="https://www.eventbrite.de/e/webinar-html-css-workshop-fur-anfanger-tickets-102889543394?discount=superdigital"
-                target="blank"
-              >
+              <a href={contact[this.state.index].url} target="blank">
                 Tickets
               </a>
             </button>
             <button className="cool-button3 btn-11">
-              <a href="https://www.super-code.de/" target="blank">
+              <a href={contact[this.state.index].url2} target="blank">
                 Webseite
               </a>
             </button>

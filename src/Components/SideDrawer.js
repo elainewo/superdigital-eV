@@ -5,7 +5,7 @@ import {
   FaCommentDots,
   FaHome,
   FaHashtag,
-  FaHeartbeat,
+  FaAngleDoubleDown,
   FaAlignLeft,
   FaAt,
   FaBook,
@@ -31,15 +31,15 @@ const SideDrawer = (props) => {
           </li>
           <li>
             <a href="#beitraege">
-              <FaCommentDots size="1.5rem" />
+              <FaAt size="1.5rem" />
               <span className="icon1">Projekte</span>
             </a>
           </li>
           <li>
             <a href="#uebermich">
               {" "}
-              <FaHeartbeat size="1.5rem" />
-              <span className="icon1">Über Mich</span>
+              <FaAngleDoubleDown size="1.5rem" />
+              <span className="icon1">Über Uns</span>
             </a>
           </li>
 
@@ -63,7 +63,7 @@ const SideDrawer = (props) => {
           </li>
           <button className="modal1" onClick={() => setModalIsOpen(true)}>
             <li className="kontakt1">
-              <FaAt size="1.5rem" />
+              <FaCommentDots size="1.5rem" />
               <span className="icon1">Kontakt</span>
             </li>
           </button>

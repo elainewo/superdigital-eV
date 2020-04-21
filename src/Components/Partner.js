@@ -15,9 +15,6 @@ const Partner = () => {
           <img src="/images/image1.png" alt="" />
         </a>
         <a href="#">
-          <img src="/images/image13.png" alt="" />
-        </a>
-        <a href="#">
           <img src="/images/image11.png" alt="" />
         </a>
         <a href="#">

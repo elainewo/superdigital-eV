@@ -24,6 +24,7 @@
 }
 .karteItem .beschreibung {
   margin: 1rem 0;
+  margin-left: 1.5rem;
 }
 .datum {
   margin-bottom: 0.8rem;
@@ -44,7 +45,7 @@
 .cool-button3 {
   margin-left: 1rem;
   font-size: 20px;
-  width: 190px;
+  width: 120px;
   background-color: white;
   color: #000;
   border: 2px solid #000;

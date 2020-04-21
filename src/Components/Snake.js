@@ -91,7 +91,6 @@ function Snake(props) {
                 }
             </Container >
         </Container>
-
     );
 }
 

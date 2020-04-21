@@ -14,6 +14,24 @@ import UeberUnsItem from "./Components/UeberUnsItem";
 import Home from "./Components/Home";
 import SideDrawer from "./Components/SideDrawer";
 import Backdrop from "./Components/Backdrop";
+import Darkmode from "darkmode-js";
+
+var options = {
+  bottom: "30px", // default: '32px'
+  right: "32px", // default: '32px'
+  left: "unset", // default: 'unset'
+  time: "0.5s", // default: '0.3s'
+  mixColor: "#fff", // default: '#fff'
+  backgroundColor: "#fff", // default: '#fff'
+  buttonColorDark: "#100f2c", // default: '#100f2c'
+  buttonColorLight: "#fff", // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: "🌓", // default: ''
+  autoMatchOsTheme: true, // default: true
+};
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -44,7 +62,6 @@ class App extends Component {
     return (
       <div className="App">
         <Switch>
-
           <div className="container">
             {routes.map(({ path, Component }) => (
               <Route key={path} exact path={path}>
@@ -71,13 +88,10 @@ class App extends Component {
               render={(props) => <DetailBeitrag {...props} />}
             />
           </div>
-
         </Switch>
       </div>
-
     );
   }
 }
 
 export default App;
-

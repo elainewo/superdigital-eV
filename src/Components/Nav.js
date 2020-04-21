@@ -41,7 +41,7 @@ const Nav = (props) => {
             },
             content: {
               width: "60%",
-              height: "60%",
+              height: "65%",
               margin: "auto",
             },
           }}

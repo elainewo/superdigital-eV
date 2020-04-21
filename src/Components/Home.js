@@ -16,9 +16,6 @@ import FooterNav from "./FooterNav";
 import Partner from "./Partner";
 import AfterFooter from "./AfterFooter";
 
-
-
-
 const Home = () => {
   return (
     <div>
@@ -31,7 +28,6 @@ const Home = () => {
       <FooterNav />
       <Partner />
       <AfterFooter />
-
     </div>
   );
 };

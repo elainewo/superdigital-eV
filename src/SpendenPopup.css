@@ -14,6 +14,24 @@
   background: rgb(0, 72, 115);
   padding: 40px;
 }
+.close2 {
+  color: #fff;
+  margin-top: 4rem;
+  display: flex;
+  font-size: 1.5rem;
+  background: none;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  width: 20rem;
+  height: 4rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.close2:focus {
+  outline: none;
+}
 .spenden-popup-inner h1 {
   font-size: 2rem;
   margin: 15px;

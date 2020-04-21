@@ -19,11 +19,11 @@ class DigitalZukunft extends Component {
                     </article>
 
                 </section>
-                <div class="l-section-top">
+                <div className="l-section-top">
                     <p>so arbeiten wir</p>
 
-                    <div class="c-scrolldown">
-                        <div class="c-line"></div>
+                    <div className="c-scrolldown">
+                        <div className="c-line"></div>
                     </div>
                 </div>
 

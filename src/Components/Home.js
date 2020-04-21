@@ -14,6 +14,7 @@ import UeberUnsItem from "./UeberUnsItem";
 import { Container } from "react-bootstrap";
 import FooterNav from "./FooterNav";
 import Partner from "./Partner";
+import AfterFooter from "./AfterFooter";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <Spenden />
       <FooterNav />
       <Partner />
+      <AfterFooter />
     </div>
   );
 };

@@ -8,6 +8,7 @@ const AfterFooter = () => {
         <section className="afterfooter" >
             <Snake
                 delay={1}
+
                 text={"Superdigital e.V!"}
                 fontSize={"5rem"}
             />

@@ -21,12 +21,15 @@
   margin-top: 5%;
   margin-left: 5%;
   width: 60%;
+  position: relative;
 }
 
 .ueberuns-container article div:nth-of-type(2) h4 {
   font-size: 1.7rem;
   margin-bottom: 5%;
   display: inline-block;
+  isolation: isolate;
+  position: relative;
   z-index: 999;
 }
 
@@ -47,6 +50,8 @@
   margin-bottom: -2.5%;
   margin-left: -42%;
   width: 45%;
+  position: absolute;
+  top: 15%;
 }
 
 .ueberUns h2 {
@@ -122,6 +127,8 @@
     margin-bottom: -5.5%;
     margin-left: -70%;
     width: 75%;
+    position: absolute;
+    top: 35%;
   }
   .ueberuns-text p {
     line-height: 1.3rem;
@@ -157,6 +164,7 @@
     margin-bottom: -6%;
     margin-left: -64%;
     width: 70%;
+    top: 12%;
   }
   .ueberuns-text {
     width: 50%;
@@ -180,6 +188,7 @@
     margin-bottom: -4%;
     margin-left: -38%;
     width: 45%;
+    top: 15%;
   }
   .ueberuns-text {
     width: 42%;

@@ -129,11 +129,13 @@
   }
   .digitalZukunft article {
     width: 90%;
-    padding: 20% 10% 15% 10%;
+    padding: 5% 0;
+    padding-left: 3%;
+    padding-bottom: 15%;
     margin: 0 auto;
   }
   .l-section-top {
-    margin-top: 47%;
+    display: none;
   }
 }
 
@@ -169,6 +171,9 @@
     font-size: 1.4rem;
     line-height: 1.8rem;
   }
+  .l-section-top {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -200,6 +205,7 @@
     font-size: 2rem;
   }
   .l-section-top {
+    display: block;
     margin-top: 4%;
   }
 }

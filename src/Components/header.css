@@ -4,6 +4,7 @@
   width: 95%;
   margin: 3rem auto 0;
   background-blend-mode: multiply;
+  isolation: isolate;
 }
 .head-titel {
   margin-left: 5rem;
@@ -23,6 +24,7 @@
   color: #0079fb;
   margin: 0;
   display: block;
+  width: 20rem;
 }
 .header .braucht {
   display: inline;

@@ -27,6 +27,8 @@
 .modal1 {
   width: 13rem;
   display: flex;
+  background: none;
+  border: none;
   flex-direction: column;
 }
 

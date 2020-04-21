@@ -18,7 +18,7 @@ class UeberUnsItem extends Component {
                         <img src="/images/superdigital.xyz.png" alt="" />
                         <button className="kontakt">Kontakt</button>
                     </div>
-                    <Link className="link" to="/"><svg id="close-svg" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <Link className="link" to="/"><svg id="close-svg" width="40" height="40" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="12.0186" cy="12.0186" r="8" transform="rotate(46.1014 12.0186 12.0186)" stroke="black" />
                         <line x1="8.20464" y1="8.05547" x2="15.8319" y2="15.9817" stroke="black" />
                         <line x1="8.05529" y1="15.8322" x2="15.9815" y2="8.205" stroke="black" />

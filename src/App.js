@@ -43,16 +43,15 @@ class App extends Component {
     }
     return (
       <div className="App">
-        {/* ******* UeberUns mit Transition Group ****** */}
-
         <Switch>
+
           <div className="container">
             {routes.map(({ path, Component }) => (
               <Route key={path} exact path={path}>
                 {({ match }) => (
                   <CSSTransition
                     in={match != null}
-                    timeout={500}
+                    timeout={300}
                     classNames="page"
                     unmountOnExit
                   >
@@ -67,78 +66,18 @@ class App extends Component {
               </Route>
             ))}
             <Route
-              path="/:id"
+              path="/details/:id"
               exact
               render={(props) => <DetailBeitrag {...props} />}
-            ></Route>
+            />
           </div>
-        </Switch>
 
-        {/* <Switch>
-        <Route path='/' exact>
-          <Header />
-          <Chancen />
-          <DigitalZukunft />
-          <Wirkung />
-          <Beiträge />
-          <UeberUns />
-          <Spenden />
-        </Route>
-        <Route path='/ueberunsitem'>
-          <UeberUnsItem />
-        </Route>
-        <Route
-          path="/:id"
-          exact
-          render={(props) => <DetailBeitrag {...props} />}
-        ></Route>
-      </Switch> 
-} */}
+        </Switch>
       </div>
+
     );
   }
 }
+
 export default App;
 
-// import { Container } from 'react-bootstrap';
-
-{
-  /* <div className="App">
-        <Route
-          render={({ location }) => (
-            <TransitionGroup>
-              <CSSTransition
-                key={location.key}
-                transitionName="fade"
-                transitionEnterTimeout={500}
-                transitionLeaveTimeout={300}
-              >
-                <Switch location={location}>
-                  <Route path="/" exact>
-                    {/* <Header drawerClickHandler={this.drawerToggleHandler} />
-                    <SideDrawer show={this.state.sideDrawerOpen} />
-                    {backdrop}
-                    <Chancen />
-                    <DigitalZukunft /> */}
-{/* <Wirkung />
-{/* <Beiträge />
-                    <UeberUns /> */}
-{/* <Spenden /> */ }
-                  // </Route >
-  // <Route
-//     path="/:id"
-//     exact
-//     render={(props) => <DetailBeitrag {...props} />}
-//   ></Route>
-//   <Route path="/ueberunsitem" exact>
-//     <UeberUnsItem />
-//   </Route>
-//                 </Switch >
-//               </CSSTransition >
-//             </TransitionGroup >
-//           )}
-// />
-//       </div >
-//     );
-//   } * /
-// } */}

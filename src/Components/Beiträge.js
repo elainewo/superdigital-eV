@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BeiträgeItems from "./BeiträgeItems";
+import './chancen.css';
 import "./beiträge.css";
 import { contact } from "./Data";
 import { contact2 } from "./Data2";
@@ -48,7 +49,7 @@ class Beiträge extends Component {
                 : { boxShadow: `0px 0px 0px 0px` }
             }
             onClick={this.handleExpand}
-            className="cool-button"
+            className="cool-button btn-11"
           >
             aktuelle Veranstaltungen
           </button>
@@ -59,7 +60,7 @@ class Beiträge extends Component {
                 : { boxShadow: `0px 0px 0px 0px` }
             }
             onClick={this.handleExpand2}
-            className="cool-button"
+            className="cool-button btn-11"
           >
             aktuelle Beiträge
           </button>
@@ -70,7 +71,7 @@ class Beiträge extends Component {
                 : { boxShadow: `0px 0px 0px 0px` }
             }
             onClick={this.handleExpand3}
-            className="cool-button"
+            className="cool-button btn-11"
           >
             Das Netz in Zahlen
           </button>

@@ -1,0 +1,29 @@
+.sectionPartner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.partnerLogos {
+  display: flex;
+  align-items: center;
+}
+.partnerLogos a {
+  margin-left: 1.5rem;
+}
+@media (max-width: 800px) {
+  .partnerLogos img {
+    width: 80%;
+  }
+  .netzwerk h2 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sectionPartner {
+    display: none;
+  }
+}

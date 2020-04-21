@@ -13,15 +13,14 @@ class DigitalZukunft extends Component {
                         <img className="gruppenbild" src="/images/Bild1.png" alt="gruppen-img" />
                     </div>
                     <article>
-                        <h2>Unsere Zukunft ist nicht in Stein gemeißelt - <span>
-                            Wir können und wollen Einfluss darauf nehmen, wie diese aussieht!</span></h2>
-                        <p>Die Zukunft ist digital, ein kompetenter Umgang mit digitalen Medien ist ausschlaggebend. Wir sind davon überzeugt, dass Kinder und Jugendliche mündige Bürger*innen der Welt von morgen werden sollen und möchten dazu beitragen, dass sie digitale, kreative und problemlösende Kompetenzen erlernen
+                        <h2>Wir leben in einer digitalen Gesellschaft - lasst sie uns gemeinsam gestalten!</h2>
+                        <p>Im Zentrum der Arbeit von SuperDigital steht die Vermittlung digitaler Fähigkeiten sowie Wissen zur selbstbestimmten Teilhabe. Dafür geben wir Workshops, erarbeiten neue Bildungskonzepte und Inhalte und diskutieren mit Expert:innen über die digitale Zukunft unserer Gesellschaft. Außerdem verstehen wir uns als Plattform für Austausch und Vernetzung.
                     </p>
                     </article>
 
                 </section>
                 <div class="l-section-top">
-                    <a href="#" class="c-title"><p>so arbeiten wir</p></a>
+                    <p>so arbeiten wir</p>
 
                     <div class="c-scrolldown">
                         <div class="c-line"></div>

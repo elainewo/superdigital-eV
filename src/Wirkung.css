@@ -20,7 +20,8 @@ body {
   font-size: 3.5rem;
   font-weight: 900;
   font-family: "Ubuntu Mono", monospace;
-  margin-bottom: 1rem;
+
+  margin-bottom: 2rem;
 }
 
 .textArticle p {
@@ -106,7 +107,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 800px) {
   .WirkungSection {
     display: flex;
     flex-direction: column-reverse;

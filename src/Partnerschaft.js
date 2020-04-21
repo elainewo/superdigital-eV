@@ -47,7 +47,7 @@ const Partnerschaft = (props) => {
                         />
                     </p>
                     <div className="submit">
-                        <button className="cool-button4">Senden</button>
+                        <button className="cool-button4 btn-11">Senden</button>
                     </div>
                 </form>
                 <div>

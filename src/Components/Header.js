@@ -80,8 +80,8 @@ class Header extends Component {
             />
           </article>
         </div>
-        <div class="c-scrolldown">
-          <div class="c-line"></div>
+        <div className="c-scrolldown">
+          <div className="c-line"></div>
         </div>
       </div>
     );

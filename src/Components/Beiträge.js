@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import BeiträgeItems from "./BeiträgeItems";
-import './chancen.css';
+import "./chancen.css";
 import "./beiträge.css";
 import { contact } from "./Data";
 import { contact2 } from "./Data2";
@@ -64,7 +64,8 @@ class Beiträge extends Component {
           >
             aktuelle Beiträge
           </button>
-          <button
+          {/* <button
+            className="netzZahlen"
             style={
               this.state.isThirdExpanded
                 ? { boxShadow: `3px 8px 0px 0px #ffda00` }
@@ -74,7 +75,7 @@ class Beiträge extends Component {
             className="cool-button btn-11"
           >
             Das Netz in Zahlen
-          </button>
+          </button> */}
         </section>
         <section
           style={

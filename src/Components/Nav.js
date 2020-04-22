@@ -47,7 +47,7 @@ const Nav = (props) => {
             },
           }}
         >
-          <h2>Mit Uns in Kontakt treten</h2>
+          <h2>Mit uns in Kontakt treten</h2>
           <p>
             Wenn du Fragen oder Anregungen hast, kannst du uns über das Formular
             erreichen.
@@ -67,7 +67,7 @@ const Nav = (props) => {
               />
             </p>
             <p>
-              <label className="daten">Email Adress</label>
+              <label className="daten">Email Adresse</label>
               <input
                 value={props.email}
                 onChange={props.handleChange}
@@ -97,7 +97,7 @@ const Nav = (props) => {
           <div>
             <button className="close" onClick={() => setModalIsOpen(false)}>
               <img className="pfeilModal" src={image3} alt=""></img>
-              zurück / or press ESC
+              zurück / ESC
             </button>
           </div>
         </Modal>

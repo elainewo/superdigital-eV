@@ -8,7 +8,7 @@
 .karteItem {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+
   width: 80%;
   margin: 1rem 2rem 0;
 }
@@ -31,6 +31,10 @@
   margin-left: 1.5rem;
 }
 .überschrift {
+  margin-left: 1.5rem;
+}
+.karteItem h3,
+.detailP {
   margin-left: 1.5rem;
 }
 

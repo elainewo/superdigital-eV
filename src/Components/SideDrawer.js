@@ -76,16 +76,16 @@ const SideDrawer = (props) => {
         style={{
           overlay: {
             background: "grey",
-            opacity: ".8",
+            opacity: ".95",
           },
           content: {
             width: "60%",
-            height: "60%",
+            height: "50%",
             margin: "auto",
           },
         }}
       >
-        <h2>Mit Uns in Kontakt treten</h2>
+        <h2>Mit uns in Kontakt treten</h2>
         <p>
           Wenn du Fragen oder Anregungen hast, kannst du uns über das Formular
           erreichen.
@@ -102,7 +102,7 @@ const SideDrawer = (props) => {
           />
         </p>
         <p>
-          <label className="daten">Email Adress</label>
+          <label className="daten">Email Adresse</label>
           <input
             className="input"
             type="email"
@@ -127,7 +127,7 @@ const SideDrawer = (props) => {
         <div>
           <button className="close" onClick={() => setModalIsOpen(false)}>
             <FaArrowLeft size="2rem" />
-            zurück / or press ESC
+            zurück
           </button>
         </div>
       </Modal>

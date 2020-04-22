@@ -11,7 +11,8 @@ const BeiträgeItems = (props) => {
         <p>{props.datum}</p>
         <img src={image} alt=""></img>
         <p className="beschreibung">{props.beschreibung}</p>
-        <Link to={`/details/${props.id}`}>
+        <Link style={{ textDecoration: "none" }} to={`/details/${props.id}`}>
+          <p className="read">Erfahre mehr</p>
           <img src={image2} alt=""></img>
         </Link>
       </section>

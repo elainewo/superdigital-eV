@@ -70,24 +70,23 @@ class DetailBeitrag extends Component {
             {contact[this.state.index].beschreibung}
           </h3>
           <h3>{contact[this.state.index].überschrift1}</h3>
-          <p>{contact[this.state.index].detail1a}</p>
-          <p>{contact[this.state.index].detail1b}</p>
-          <p>{contact[this.state.index].detail1c}</p>
+          <p className="detailP">{contact[this.state.index].detail1a}</p>
+          <p className="detailP">{contact[this.state.index].detail1b}</p>
+          <p className="detailP">{contact[this.state.index].detail1c}</p>
           <h3>{contact[this.state.index].überschrift2}</h3>
-          <p>{contact[this.state.index].detail2a}</p>
-          <p>{contact[this.state.index].detail2b}</p>
-          <p>{contact[this.state.index].detail2c}</p>
-          <p>{contact[this.state.index].detail2d}</p>
+          <p className="detailP">{contact[this.state.index].detail2b}</p>
+          <p className="detailP">{contact[this.state.index].detail2c}</p>
+          <p className="detailP">{contact[this.state.index].detail2d}</p>
           <h3>{contact[this.state.index].trainer}</h3>
-          <p>{contact[this.state.index].trainer1}</p>
-          <p>{contact[this.state.index].trainer2}</p>
-          <p>{contact[this.state.index].trainer3}</p>
+          <p className="detailP">{contact[this.state.index].trainer1}</p>
+          <p className="detailP">{contact[this.state.index].trainer2}</p>
+          <p className="detailP">{contact[this.state.index].trainer3}</p>
           <h3>{contact[this.state.index].überschrift3}</h3>
-          <p>{contact[this.state.index].detail3}</p>
+          <p className="detailP">{contact[this.state.index].detail3}</p>
           <h3>{contact[this.state.index].überschrift4}</h3>
-          <p>{contact[this.state.index].detail4}</p>
+          <p className="detailP">{contact[this.state.index].detail4}</p>
           <h3>{contact[this.state.index].überschrift5}</h3>
-          <p>{contact[this.state.index].detail5}</p>
+          <p className="detailP">{contact[this.state.index].detail5}</p>
           <div className="wrapper">
             <button className="cool-button3 btn-11" href="#contained-buttons">
               <a href={contact[this.state.index].url} target="blank">

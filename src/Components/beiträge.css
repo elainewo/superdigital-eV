@@ -74,6 +74,7 @@
 @media (max-width: 600px) {
   .item {
     margin-top: 6rem;
+
     grid-template-columns: 1fr;
     width: 100%;
   }
@@ -82,7 +83,7 @@
     width: 9rem;
     padding: 5px 0px;
     font-size: 12px;
-    margin: 10px 15px -10px -15px;
+    margin: 10px 35px -10px -15px;
   }
   .buttons {
     display: flex;

@@ -179,6 +179,9 @@ html span {
     margin: 0;
     margin-top: 20%;
   }
+  .chancenItem .brushItem {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {

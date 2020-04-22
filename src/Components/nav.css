@@ -13,12 +13,9 @@ header img {
   margin-left: 1rem;
 }
 
-.kontakt {
-  border: 1px solid #0079fb;
-  border-radius: 1rem;
-  padding: 0.2rem 0.6rem;
-  color: #0079fb;
-  margin-top: -0.2rem;
+.kontakt2 {
+  color: #fff;
+  font-size: 1rem;
 }
 
 header ul {

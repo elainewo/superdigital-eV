@@ -27,7 +27,7 @@ const Nav = (props) => {
               <a href="#uebermich">Über Uns</a>
             </li>
             <button className="modal" onClick={() => setModalIsOpen(true)}>
-              <li className="kontakt">Kontakt</li>
+              <li className="kontakt2">Kontakt</li>
             </button>
           </ul>
         </nav>

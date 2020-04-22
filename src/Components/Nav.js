@@ -3,6 +3,7 @@ import "./nav.css";
 import logo from "../superdigital.xyz.png";
 import { FaArrowLeft } from "react-icons/fa";
 import Modal from "react-modal";
+import image3 from "../Arrow 4.svg";
 Modal.setAppElement("#root");
 
 const Nav = (props) => {
@@ -23,7 +24,7 @@ const Nav = (props) => {
               <a href="#beitraege">Projekte</a>
             </li>
             <li>
-              <a href="#uebermich">Über Mich</a>
+              <a href="#uebermich">Über Uns</a>
             </li>
             <button className="modal" onClick={() => setModalIsOpen(true)}>
               <li className="kontakt">Kontakt</li>
@@ -37,11 +38,11 @@ const Nav = (props) => {
           style={{
             overlay: {
               background: "grey",
-              opacity: ".8",
+              opacity: ".95",
             },
             content: {
               width: "60%",
-              height: "60%",
+              height: "65%",
               margin: "auto",
             },
           }}
@@ -95,7 +96,7 @@ const Nav = (props) => {
           </form>
           <div>
             <button className="close" onClick={() => setModalIsOpen(false)}>
-              <FaArrowLeft size="2rem" />
+              <img className="pfeilModal" src={image3} alt=""></img>
               zurück / or press ESC
             </button>
           </div>

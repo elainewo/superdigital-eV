@@ -6,21 +6,20 @@ body {
 
 .WirkungSection {
   display: flex;
-  height: 100vh;
+  margin-top: 50px;
 }
 
 .textArticle {
   margin-top: 150px;
-  width: 40%;
+  width: 48%;
   margin-left: 7rem;
 }
 
 .textArticle h2 {
   color: #ffda00;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   font-weight: 900;
   font-family: "Ubuntu Mono", monospace;
-
   margin-bottom: 2rem;
 }
 
@@ -39,14 +38,10 @@ body {
 
 .WirkungSection .imgArticle img {
   margin: 0 20px;
-  /* width: 70%;
-  height: auto; */
-  height: 100%;
-  width: auto;
-}
-
-.wirkungsBtnDiv {
-  margin-left: 6rem;
+  width: 550px;
+  height: 450px;
+  /* height: 80%;
+  width: auto; */
 }
 
 .Btn {
@@ -58,20 +53,23 @@ body {
   border: 1px solid #000;
   border-radius: 50%;
   padding: 10px 13px;
-  margin: 10px;
+  margin-right: 10px;
   outline: none;
 }
 
-@media only screen and (max-width: 1024px) {
+.Btn:hover {
+  background-color: #ffda00;
+}
+
+/* .Btn:active {
+  background-color: #ff9900da;
+} */
+
+/* @media only screen and (max-width: 1024px) {
   .WirkungSection {
     display: flex;
     flex-direction: column-reverse;
   }
-  /* .WirkungSection .imgArticle img {
-    width: 65%;
-    height: auto;
-    margin: 30px 20px;
-  } */
   .textArticle {
     margin-top: 10px;
     width: 90%;
@@ -105,24 +103,23 @@ body {
     margin: 10px;
     outline: none;
   }
-}
-
-@media only screen and (max-width: 800px) {
+} */
+@media only screen and (max-width: 1080px) {
   .WirkungSection {
     display: flex;
     flex-direction: column-reverse;
   }
-  .imgArticle {
+  .WirkungSection .imgArticle {
+  
     display: flex;
     width: 100%;
     justify-content: center;
   }
-  .WirkungSection .imgArticle {
-    min-height: 300px;
-  }
   .WirkungSection .imgArticle img {
-    width: auto;
+    width: 90%;
+    height: 100%;
     min-height: 300px;
+    margin: 0 20px;
   }
   .WirkungSection .imgArticle img:nth-of-type(2) {
     display: none;
@@ -130,7 +127,9 @@ body {
   .textArticle {
     margin-top: 10px;
     width: 90%;
-    margin-left: 1rem;
+    margin: 1rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .textArticle h2 {
     font-size: 2rem;
@@ -153,7 +152,7 @@ body {
   }
   .wirkungsBtnDiv {
     text-align: center;
-    margin: 10px auto;
+    margin: 5px auto;
   }
   .Btn {
     padding: 7px 9px;
@@ -162,9 +161,76 @@ body {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 780px) {
+  .WirkungSection {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .WirkungSection .imgArticle {
+  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .WirkungSection .imgArticle img {
+    width: 90%;
+    height: 100%;
+    min-height: 300px;
+    margin: 0 20px;
+  }
+  .WirkungSection .imgArticle img:nth-of-type(2) {
+    display: none;
+  }
+  .textArticle {
+    margin-top: 10px;
+    width: 90%;
+    margin: 1rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .textArticle h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-family: "Ubuntu Mono", monospace;
+  }
+  .textArticle p {
+    line-height: 25px;
+    height: 300px;
+  }
+  .WirkungSection {
+    display: flex;
+  }
+  .WirkungSection .imgArticle {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+  .wirkungsBtnDiv {
+    text-align: center;
+    margin: 5px auto;
+  }
+  .Btn {
+    padding: 7px 9px;
+    margin: 10px;
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .textArticle {
+    margin-top: 10px;
+    width: 90%;
+    margin: 1rem auto;
+  }
   .textArticle p {
     line-height: 25px;
     height: 400px;
+  }
+  .WirkungSection .imgArticle img {
+    width: 90%;
+    min-height: 150px;
+    margin: 1px 1px;
   }
 }

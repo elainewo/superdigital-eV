@@ -102,6 +102,10 @@ header ul li {
   font-size: 2rem;
   margin-top: 1rem;
 }
+.pfeilModal {
+  transform: rotate(180deg);
+  margin: 0.5rem;
+}
 
 .daten {
   display: block;

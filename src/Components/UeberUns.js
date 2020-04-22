@@ -24,7 +24,8 @@ class UeberUns extends Component {
                 Daher arbeite ich seit mehreren Jahren in der digitalen
                 Bildungsbranche...
               </p>
-              <Link to="/ueberunsitem">
+              <Link to="/ueberunsitem" style={{ textDecoration: "none" }}>
+                <p className="erfahreMehr">Erfahre mehr</p>
                 <svg
                   id="arrow"
                   width="31"

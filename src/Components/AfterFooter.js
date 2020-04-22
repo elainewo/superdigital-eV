@@ -9,7 +9,7 @@ const AfterFooter = () => {
             <Snake
                 delay={1}
 
-                text={"Superdigital e.V!"}
+                text={"Superdigital e.V "}
                 fontSize={"5rem"}
             />
         </section>

@@ -5,7 +5,7 @@ const data = [
   {
     title: "Wirkungsbereiche:",
     text:
-      "Fähigkeiten und Wissen: Welche Fähigkeiten brauchen wir in einer digitalen Zukunft, privat und für den Beruf? Wie können diese Fähigkeiten vermittelt werden, wie sieht das Lernen der Zukunft aus? Selbstbestimmung und Partizipation: Wie funktioniert unsere digitale Gesellschaft? Welchen Einfluss hat Digitalisierung auf uns? Wie können wir diese beeinflussen und wird die Teilhabe und aktive Mitgestaltung gefördert?ZukunftDigital_DoIT: Begeistern, ausprobieren, lernen, anwenden. Vom Nutzen zum Gestalten.",
+      "Fähigkeiten und Wissen: Welche Fähigkeiten brauchen wir in einer digitalen Zukunft, privat und für den Beruf? Wie können diese Fähigkeiten vermittelt werden, wie sieht das Lernen der Zukunft aus? Selbstbestimmung und Partizipation: Wie funktioniert unsere digitale Gesellschaft? Welchen Einfluss hat Digitalisierung auf uns? Wie können wir diese beeinflussen und wird die Teilhabe und aktive Mitgestaltung gefördert? ZukunftDigital_DoIT: Begeistern, ausprobieren, lernen, anwenden. Vom Nutzen zum Gestalten.",
     imgSrc: "./img/Bild1.png",
   },
   {
@@ -17,7 +17,7 @@ const data = [
   {
     title: "Zusammenarbeit:",
     text:
-      "Schulen: Welche Fähigkeiten brauchen wir in einer digitalen Zukunft, privat und für den Beruf? Wie können diese Fähigkeiten vermittelt werden, wie sieht das Lernen der Zukunft aus? Behörden: Wie funktioniert unsere digitale Gesellschaft? Welchen Einfluss hat Digitalisierung auf uns? Wie können wir diese beeinflussen und wird die Teilhabe und aktive Mitgestaltung gefördert? Vereine / Unternehmen:Begeistern, ausprobieren, lernen, anwenden. Vom Nutzen zum Gestalten",
+      "Schulen: Welche Fähigkeiten brauchen wir in einer digitalen Zukunft, privat und für den Beruf? Wie können diese Fähigkeiten vermittelt werden, wie sieht das Lernen der Zukunft aus? Behörden: Wie funktioniert unsere digitale Gesellschaft? Welchen Einfluss hat Digitalisierung auf uns? Wie können wir diese beeinflussen und wird die Teilhabe und aktive Mitgestaltung gefördert? Vereine / Unternehmen: Begeistern, ausprobieren, lernen, anwenden. Vom Nutzen zum Gestalten",
     imgSrc: "./img/Bild3.png",
   },
 ];
@@ -55,8 +55,10 @@ class Wirkung extends Component {
       <div className="Wirkung">
         <section className="WirkungSection">
           <article className="textArticle">
-            <h2 className="uuh1">{data[this.state.index].title}</h2>
-            <p>{data[this.state.index].text}</p>
+            <div>
+              <h2 className="uuh1">{data[this.state.index].title}</h2>
+              <p>{data[this.state.index].text}</p>
+            </div>
             <div className="wirkungsBtnDiv">
               <button className="wirkLeft Btn" onClick={this.handleLeft}>
                 {" "}

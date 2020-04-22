@@ -76,7 +76,7 @@ function Snake(props) {
                 transition={{ delay: props.delay }}>
                 {letters.map((letter, index) => (
                     <motion.div key={index} initial={{ opacity: 0, color: "#0079fb" }}
-                        animate={{ opacity: 1, y: getSnakeHeight(index, letter), color: handleColor(letter) }}
+                        animate={{ opacity: 1, y: getSnakeHeight(index, letter), scale: 1.5 }}
                         transition={{ delay: delay, loop: Infinity }}>
                         {getLetter(letter)}
                     </motion.div>
@@ -86,7 +86,7 @@ function Snake(props) {
             <Container fontSize={props.fontSize} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: props.delay }}>
                 {letters.map((letter, index) => (
                     <motion.div key={index} initial={{ opacity: 0, color: "#0079fb" }}
-                        animate={{ opacity: 1, y: getSnakeHeight(index, letter), color: handleColor(letter) }}
+                        animate={{ opacity: 1, y: getSnakeHeight(index, letter), scale: 1.5 }}
                         transition={{ delay: delay, loop: Infinity }}>
                         {getLetter(letter)}
                     </motion.div>

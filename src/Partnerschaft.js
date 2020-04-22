@@ -28,7 +28,7 @@ const Partnerschaft = (props) => {
             />
           </p>
           <p>
-            <label className="daten">Email Adress</label>
+            <label className="daten">Email Adresse</label>
             <input
               value={props.email}
               onChange={props.handleChange}
@@ -57,8 +57,7 @@ const Partnerschaft = (props) => {
         </form>
         <div>
           <button className="close2" onClick={props.handlePartnerschaft}>
-            <FaArrowLeft size="2rem" />
-            zurück
+            Close 
           </button>
         </div>
       </div>

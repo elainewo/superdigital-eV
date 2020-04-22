@@ -39,10 +39,10 @@
   margin: 20rem 0 15rem;
 }
 
-.chancenItem img {
+.chancenItem .brushItem {
   width: 90%;
-  margin-top: -4rem;
-  z-index: -1;
+  margin-top: -3rem;
+  z-index: 1;
 }
 
 .chancenItem h2 {
@@ -50,18 +50,25 @@
   font-weight: 100;
 }
 
-html *, html *:before, html *:after {
+html *,
+html *:before,
+html *:after {
   box-sizing: border-box;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
 
-html i, html em, html b, html strong, html span {
+html i,
+html em,
+html b,
+html strong,
+html span {
   -webkit-transition: none;
   transition: none;
 }
 
-*:before, *:after {
+*:before,
+*:after {
   z-index: -1;
 }
 
@@ -103,10 +110,11 @@ html i, html em, html b, html strong, html span {
   overflow: hidden;
 }
 
-.btn-11:before, .btn-11:after {
+.btn-11:before,
+.btn-11:after {
   position: absolute;
   top: 50%;
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   background-color: #3dd7ac;
